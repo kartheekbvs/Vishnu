@@ -551,6 +551,382 @@ export const mainStotram: Shloka[] = [
     teluguMeaning: "భగవాన్, భగహా, ఆనంది, వనమాలి, హలాయుధుడు, ఆదిత్యుడు, జ్యోతిరాదిత్యుడు, సహిష్ణువు, గతిసత్తముడు.",
     englishMeaning: "The Lord, the destroyer of fortune, the blissful, the forest-garlanded, the plough-armed, the Sun, the light-Sun, the tolerant, the best of goals.",
     names: ["Bhagavan", "Bhagaha", "Anandi", "Vana-mali", "Halayudhah", "Adityah", "Jyotir-adityah", "Sahishnuh", "Gati-sattamah"]
+  },
+  {
+    id: 61,
+    telugu: "సుధన్వా ఖండపరశుర్దారుణో ద్రవిణప్రదః ।\nదివఃస్పృక్ సర్వదృగ్వ్యాసో వాచస్పతిరయోనిజః ॥",
+    transliteration: "Su-dhanva khanda-parashur-daruno dravina-pradah |\ndivah-sprik sarva-drig-vyaso vachaspatir-ayonijah ||",
+    teluguMeaning: "సుధన్వుడు, ఖండపరశువు, దారుణుడు, ద్రవిణప్రదుడు, దివఃస్పృక్, సర్వదృక్, వ్యాసుడు, వాచస్పతి, అయోనిజుడు.",
+    englishMeaning: "The good archer, the axe-bearer, the terrible, the wealth-giver, the sky-touching, the all-seeing, Vyasa, the Lord of speech, the unborn.",
+    names: ["Su-dhanva", "Khanda-parashuh", "Darunah", "Dravina-pradah", "Divah-sprik", "Sarva-drik", "Vyasa", "Vachaspatih", "Ayonijah"]
+  },
+  {
+    id: 62,
+    telugu: "త్రిసామా సామగః సామ నిర్వాణం భేషజం భిషక్ ।\nసన్యాసకృచ్ఛమః శాంతో నిష్ఠా శాంతిః పరాయణం।",
+    transliteration: "Tri-sama samagah sama nirvanam bheshajam bhishak |\nsanyasa-krich-chhamah shanto nishta shantih parayanam ||",
+    teluguMeaning: "త్రిసాముడు, సామగుడు, సాముడు, నిర్వాణము, భేషజము, భిషక్కుడు, సన్యాసకృత్, శముడు, శాంతుడు, నిష్ఠ, శాంతి, పరాయణము.",
+    englishMeaning: "The three-fold Sama singer, Sama itself, liberation, medicine, the physician, the maker of renunciation, the peaceful, the establishment, peace, the supreme resort.",
+    names: ["Tri-sama", "Samagah", "Samah", "Nirvanam", "Bheshajam", "Bhishak", "Sanyasa-krit", "Shamah", "Shantah", "Nishta", "Shantih", "Parayanam"]
+  },
+  {
+    id: 63,
+    telugu: "శుభాంగః శాంతిదః స్రష్టా కుముదః కువలేశయః ।\nగోహితో గోపతిర్గోప్తా వృషభాక్షో వృషప్రియః ॥",
+    transliteration: "Shubhangah shanti-dah srashta kumudah kuvaleshayah |\ngo-hito go-patir-gopta vrishabhaksho vrisha-priyah ||",
+    teluguMeaning: "శుభాంగుడు, శాంతిదుడు, స్రష్ట, కుముదుడు, కువలేశయుడు, గోహితుడు, గోపతి, గోప్త, వృషభాక్షుడు, వృషప్రియుడు.",
+    englishMeaning: "The beautiful-bodied, the peace-giver, the creator, the joy of the earth, the Lord of the earth, the well-wisher of cows, the Lord of cows, the protector, the bull-eyed, the beloved of dharma.",
+    names: ["Shubhangah", "Shanti-dah", "Srashta", "Kumudah", "Kuvaleshayah", "Go-hitah", "Go-patih", "Gopta", "Vrishabhakshah", "Vrisha-priyah"]
+  },
+  {
+    id: 64,
+    telugu: "అనివర్తీ నివృత్తాత్మా సంక్షేప్తా క్షేమకృచ్ఛివః ।\nశ్రీవత్సవక్షాః శ్రీవాసః శ్రీపతిః శ్రీమతాంవరః ॥",
+    transliteration: "Anivarti nivrittatma samkshepta kshema-krich-chhivah |\nshree-vatsa-vakshah shree-vasah shree-patih shree-matam-varah ||",
+    teluguMeaning: "అనివర్తి, నివృత్తాత్మ, సంక్షేప్త, క్షేమకృత్, శివుడు, శ్రీవత్సవక్షుడు, శ్రీవాసుడు, శ్రీపతి, శ్రీమతాం వరుడు.",
+    englishMeaning: "The non-returning, the retired soul, the contractor, the safety-maker, the auspicious, the chest-marked with Srivatsa, the abode of Sri, the Lord of Sri, the best among the wealthy.",
+    names: ["Anivarti", "Nivrittatma", "Samkshepta", "Kshema-krit", "Shivah", "Shree-vatsa-vakshah", "Shree-vasah", "Shree-patih", "Shree-matam-varah"]
+  },
+  {
+    id: 65,
+    telugu: "శ్రీదః శ్రీశః శ్రీనివాసః శ్రీనిధిః శ్రీవిభావనః ।\nశ్రీధరః శ్రీకరః శ్రేయః శ్రీమాँల్లోకత్రయాశ్రయః ॥",
+    transliteration: "Shreedah shreeshah shree-nivasah shree-nidhih shree-vibhavanah |\nshree-dharah shree-karah shreyah shreeman-loka-trayashrayah ||",
+    teluguMeaning: "శ్రీదుడు, శ్రీశుడు, శ్రీనివాసుడు, శ్రీనిధి, శ్రీవిభావనుడు, శ్రీధరుడు, శ్రీకరుడు, శ్రేయః, శ్రీమాన్ లోకత్రయాశ్రయుడు.",
+    englishMeaning: "The giver of Sri, the Lord of Sri, the abode of Sri, the treasure of Sri, the creator of Sri, the bearer of Sri, the maker of Sri, the auspicious, the resort of the three worlds.",
+    names: ["Shreedah", "Shreeshah", "Shree-nivasah", "Shree-nidhih", "Shree-vibhavanah", "Shree-dharah", "Shree-karah", "Shreyah", "Shreeman-loka-trayashrayah"]
+  },
+  {
+    id: 66,
+    telugu: "స్వక్షః స్వంగః శతానందో నందిర్జ్యోతిర్గణేశ్వరః ।\nవిజితాత్మాఽవిధేయాత్మా సత్కీర్తిచ్ఛిన్నసంశయః ॥",
+    transliteration: "Svakshah svangah shata-anando nandir-jyotir-ganeshvarah |\nvijitatma-avidheyatma sat-kirti-chhinna-samshayah ||",
+    teluguMeaning: "స్వక్షుడు, స్వంగుడు, శతానందుడు, నంది, జ్యోతిర్గణేశ్వరుడు, విజితాత్మ, అవిధేయాత్మ, సత్కీర్తిచ్ఛిన్నసంశయుడు.",
+    englishMeaning: "The beautiful-eyed, the beautiful-bodied, the hundred-fold bliss, the joy, the Lord of the light-groups, the self-conquered, the uncontrolled Self, the doubt-severed by good fame.",
+    names: ["Svakshah", "Svangah", "Shata-anandah", "Nandih", "Jyotir-ganeshvarah", "Vijitatma", "Avidheyatma", "Sat-kirti-chhinna-samshayah"]
+  },
+  {
+    id: 67,
+    telugu: "ఉదీర్ణః సర్వతశ్చక్షురనీశః శాశ్వతస్థిరః ।\nభూశయో భూషణో భూతిర్విశోకః శోకనాశనః ॥",
+    transliteration: "Udirnah sarvata-sh-chakshur-anishah shashvata-sthirah |\nbhu-shayo bhu-shano bhutir-vishokah shoka-nashanah ||",
+    teluguMeaning: "ఉదీర్ణుడు, సర్వతశ్చక్షువు, అనీశుడు, శాశ్వతస్థిరుడు, భూశయుడు, భూషణుడు, భూతి, విశోకుడు, శోకనాశనుడు.",
+    englishMeaning: "The elevated, the all-seeing, the masterless, the eternal-steady, the earth-resting, the ornament, the welfare, the sorrowless, the destroyer of sorrow.",
+    names: ["Udirnah", "Sarvatas-chakshuh", "Anishah", "Shashvata-sthirah", "Bhu-shayah", "Bhu-shanah", "Bhutih", "Vishokah", "Shoka-nashanah"]
+  },
+  {
+    id: 68,
+    telugu: "అర్చిష్మానర్చితః కుంభో విశుద్ధాత్మా విశోధనః ।\nఅనిరుద్ధోఽప్రతిరథః ప్రద్యుమ్నోఽమితవిక్రమః ॥",
+    transliteration: "Archishman-architah kumbho vishuddhatma vishodhanah |\naniruddho'pratirathah pradyumno'mita-vikramah ||",
+    teluguMeaning: "అర్చిష్మాన్, అర్చితుడు, కుంభుడు, విశుద్ధాత్మ, విశోధనుడు, అనిరుద్ధుడు, అప్రతిరథుడు, ప్రద్యుమ్నుడు, అమితవిక్రముడు.",
+    englishMeaning: "The radiant, the worshipped, the pot, the pure Self, the purifier, Aniruddha, the unrivaled, Pradyumna, the immeasurably powerful.",
+    names: ["Archishman", "Architah", "Kumbhah", "Vishuddhatma", "Vishodhanah", "Aniruddhah", "Apratirathah", "Pradyumnah", "Amita-vikramah"]
+  },
+  {
+    id: 69,
+    telugu: "కాలనేమినిహా వీరః శౌరిః శూరజనేశ్వరః ।\nత్రిలోకాత్మా త్రిలోకేశః కేశవః కేశిహా హరిః ॥",
+    transliteration: "Kala-nemi-niha virah shaurih shura-janeshvarah |\ntri-lokatma tri-lokeshah keshavah kesi-ha harih ||",
+    teluguMeaning: "కాలనేమిని నిహా వీరుడు, శౌరి, శూరజనేశ్వరుడు, త్రిలోకాత్మ, త్రిలోకేశుడు, కేశవుడు, కేశిహుడు, హరి.",
+    englishMeaning: "The slayer of Kalanemi, Shauri, the Lord of heroes, the Self of the three worlds, the Lord of the three worlds, Keshava, the slayer of Keshi, Hari.",
+    names: ["Kala-nemi-nihah", "Virah", "Shaurih", "Shura-janeshvarah", "Tri-lokatma", "Tri-lokeshah", "Keshavah", "Kesi-ha", "Harih"]
+  },
+  {
+    id: 70,
+    telugu: "కామదేవః కామపాలః కామీ కాంతః కృతాగమః ।\nఅనిర్దेश్యవపుర్విష్ణుర్వీరోఽనంతో ధనంజయః ॥",
+    transliteration: "Kama-devah kama-palah kami kantah kritagamah |\nanirdeshya-vapur-vishnur-veero'nanto dhananjayah ||",
+    teluguMeaning: "కామదేవుడు, కామపాలుడు, కామీ, కాంతుడు, కృతాగముడు, అనిర్దేశ్యవపువు, విష్ణువు, వీరుడు, అనంతుడు, ధనంజయుడు.",
+    englishMeaning: "The God of love, the protector of love, the desirous, the beloved, the maker of scriptures, the indescribable-formed, Vishnu, the valiant, the infinite, the winner of wealth.",
+    names: ["Kama-devah", "Kama-palah", "Kami", "Kantah", "Kritagamah", "Anirdeshya-vapuh", "Vishnuh", "Virah", "Anantah", "Dhananjayah"]
+  },
+  {
+    id: 71,
+    telugu: "బ్రహ్మణ्यो బ్రహ్మకృద్ బ్రహ్మా బ్రహ్మ బ్రహ్మవివర్ధనః ।\nబ్రహ్మవిద్ బ్రాహ్మణో బ్రహ్మీ బ్రహ్మజ్ఞో బ్రాహ్మణప్రియః ॥",
+    transliteration: "Brahmanyo brahma-krit brahma brahma brahma-vivardhanah |\nbrahma-vid brahmano brahmi brahma-jno brahmana-priyah ||",
+    teluguMeaning: "బ్రహ్మణ్యుడు, బ్రహ్మకృత్, బ్రహ్మ, బ్రహ్మ, బ్రహ్మవివర్ధనుడు, బ్రహ్మవిద్, బ్రాహ్మణుడు, బ్రహ్మీ, బ్రహ్మజ్ఞుడు, బ్రాహ్మణప్రియుడు.",
+    englishMeaning: "The benefactor of Brahmins, the creator of Brahma, Brahma, Brahma, the increaser of Brahma, the knower of Brahma, the Brahmin, the Brahman, the knower of Brahman, the beloved of Brahmins.",
+    names: ["Brahmanyah", "Brahma-krit", "Brahma", "Brahma", "Brahma-vivardhanah", "Brahma-vid", "Brahmanah", "Brahmi", "Brahma-jnah", "Brahmana-priyah"]
+  },
+  {
+    id: 72,
+    telugu: "మహాక్రమో మహాకర్మా మహాతేజా మహోరగః ।\nమహాక్రతుర్మహాయజ్వా మహాయజ్ఞో మహాహవిః ॥",
+    transliteration: "Maha-kramo maha-karma maha-teja maha-oragah |\nmaha-kratur-maha-yajva maha-yajno maha-havih ||",
+    teluguMeaning: "మహాక్రముడు, మహాకర్మ, మహాతేజుడు, మహోరగుడు, మహాక్రతువు, మహాయజ్వుడు, మహాయజ్ఞుడు, మహాహవిః.",
+    englishMeaning: "The great-strider, the great-actor, the great-radiant, the great-serpent, the great-sacrifice, the great-sacrificer, the great-sacrifice, the great-offering.",
+    names: ["Maha-kramah", "Maha-karma", "Maha-tejah", "Maha-oragah", "Maha-kratuh", "Maha-yajva", "Maha-yajnah", "Maha-havih"]
+  },
+  {
+    id: 73,
+    telugu: "స్తవ్యః స్తవప్రియః స్తోత్రం స్తుతిః స్తోతా రణప్రియః ।\nపూర్ణః పూరయితా పుణ్యః పుణ్యకీర్తిరనామయః ॥",
+    transliteration: "Stavyah stava-priyah stotram stutih stota rana-priyah |\npurnah purayita punyah punya-kirtir-anamayah ||",
+    teluguMeaning: "స్తవ్యుడు, స్తవప్రియుడు, స్తోత్రము, స్తుతి, స్తోత, రణప్రియుడు, పూర్ణుడు, పూరయిత, పుణ్యుడు, పుణ్యకీర్తి, అనామయుడు.",
+    englishMeaning: "The praiseworthy, the lover of praise, the hymn, the praise, the praiser, the battle-lover, the complete, the fulfiller, the meritorious, the meritoriously-famed, the diseaseless.",
+    names: ["Stavyah", "Stava-priyah", "Stotram", "Stutih", "Stota", "Rana-priyah", "Purnah", "Purayita", "Punyah", "Punya-kirtih", "Anamayah"]
+  },
+  {
+    id: 74,
+    telugu: "మనోజవస్తీర్థకరో వసురేతా వసుప్రదః ।\nవసుప్రదో వాసుదేవో వసుర్వసుమనా హవిః ॥",
+    transliteration: "Mano-java-stirtha-karo vasureta vasu-pradah |\nvasu-prado vasudevo vasur-vasumana havih ||",
+    teluguMeaning: "మనోజవుడు, తీర్థకరుడు, వసురేత, వసుప్రదుడు, వసుప్రదుడు, వాసుదేవుడు, వసువు, వసుమనుడు, హవిః.",
+    englishMeaning: "The swift as mind, the tirtha-maker, the luminous-seeded, the wealth-giver, Vasudeva, the dwelling, the wealthy-minded, the offering.",
+    names: ["Mano-java", "Tirtha-karah", "Vasureta", "Vasu-pradah", "Vasu-pradah", "Vasudevah", "Vasuh", "Vasumanah", "Havih"]
+  },
+  {
+    id: 75,
+    telugu: "సద్గతిః సత్కృతిః సత్తా సద్భూతిః సత్పరాయణః ।\nశూరసేనో యదుశ్రేష్ఠః సన్నివాసః సుయామునః ॥",
+    transliteration: "Sad-gatih sat-kritih satta sad-bhutih sat-parayanah |\nshura-seno yadu-shreshthah sam-nivasah su-yamunah ||",
+    teluguMeaning: "సద్గతి, సత్కృతి, సత్తా, సద్భూతి, సత్పరాయణుడు, శూరసేనుడు, యదుశ్రేష్ఠుడు, సన్నివాసుడు, సుయామునుడు.",
+    englishMeaning: "The good path, the good action, existence, the good state, the supreme resort, the Lord of Shurasena, the best of Yadus, the abode, the well-restrained.",
+    names: ["Sad-gatih", "Sat-kritih", "Satta", "Sad-bhutih", "Sat-parayanah", "Shura-senah", "Yadu-shreshthah", "Sam-nivasah", "Su-yamunah"]
+  },
+  {
+    id: 76,
+    telugu: "భూతావాసో వాసుదేవః సర్వాసునిలయోఽనలః ।\nదర్పహా దర్పదో దృప్తో దుర్ధరోఽథాపరాజితః ॥",
+    transliteration: "Bhutavasah vasudevah sarvasu-nilayo'nalalah |\ndarpaha darpado drupto durdharo'tha-aparajitah ||",
+    teluguMeaning: "భూతావాసుడు, వాసుదేవుడు, సర్వాసునిలయుడు, అనలుడు, దర్పహుడు, దర్పదుడు, దృప్తుడు, దుర్ధరుడు, అపరాజితుడు.",
+    englishMeaning: "The abode of beings, Vasudeva, the resort of all souls, the fire, the destroyer of pride, the giver of pride, the proud, the unsupportable, the unconquered.",
+    names: ["Bhutavasah", "Vasudevah", "Sarvasu-nilayah", "Analah", "Darpaha", "Darpadah", "Druptah", "Durdharah", "Aparajitah"]
+  },
+  {
+    id: 77,
+    telugu: "విశ్వమూర్తిర్మహామూర్తిర్దీప్తమూర్తిరమూర్తిమాన్ ।\nఅనेकమూర్తిరవ్యక్తః శతమూర్తిః శతాననః ॥",
+    transliteration: "Vishva-murtir-maha-murtir-dipta-murtir-amurtiman |\naneka-murtir-avyaktah shata-murtih shata-ananah ||",
+    teluguMeaning: "విశ్వమూర్తి, మహామూర్తి, దీప్తమూర్తి, అమూర్తిమాన్, అనేకమూర్తి, అవ్యక్తుడు, శతమూర్తి, శతాననుడు.",
+    englishMeaning: "The universal form, the great form, the radiant form, the formless one, the multi-formed, the unmanifest, the hundred-formed, the hundred-faced.",
+    names: ["Vishva-murtih", "Maha-murtih", "Dipta-murtih", "Amurtiman", "Aneka-murtih", "Avyaktah", "Shata-murtih", "Shata-ananah"]
+  },
+  {
+    id: 78,
+    telugu: "ఏకో నैकः సవः కః िం यत్తत్ పదమనुत్తమమ్ ।\nలోకబन्धुर్लोకనाथో మాధవో భక్తవत్సలః ॥",
+    transliteration: "Eko naikah savah kah kim yat-tat padam-anuttamam |\nloka-bandhur-loka-natho madhavo bhakta-vatsalah ||",
+    teluguMeaning: "ఏకుడు, నైకుడు, సవః, కః, కిం, యత్, తత్ పదమనుత్తమము, లోకబంధువు, లోకనాథుడు, మాధవుడు, భక్తవత్సలుడు.",
+    englishMeaning: "The one, the many, the sacrifice, the happy one, the what, the which, the supreme state, the friend of the world, the Lord of the world, Madhava, the affectionate to devotees.",
+    names: ["Ekah", "Naikah", "Savah", "Kah", "Kim", "Yat", "Tat", "Padam-anuttamam", "Loka-bandhuh", "Loka-nathah", "Madhavah", "Bhakta-vatsalah"]
+  },
+  {
+    id: 79,
+    telugu: "సువర్ణవర्णో హేమాంగో వరాంగశ్చందనాంగదీ ।\nవీరహా విషమః శూన్యో ఘృతాశీరచलశ్చలః ॥",
+    transliteration: "Suvarna-varno hemango varangash-chandanangadi |\nviraha vishamah shunyo ghritashira-chala-sh-chalah ||",
+    teluguMeaning: "సువర్ణవర్ణుడు, హేమాంగుడు, వరాంగుడు, చందనాంగది, వీరహుడు, విషముడు, శూన్యుడు, ఘృతాశీ, అచలుడు, చలుడు.",
+    englishMeaning: "The golden-colored, the golden-bodied, the beautiful-bodied, the sandalwood-banded, the destroyer of heroes, the unequal, the void, the ghee-eating, the steady, the moving.",
+    names: ["Suvarna-varnah", "Hemangah", "Varangah", "Chandanangadi", "Viraha", "Vishamah", "Shunyah", "Ghritashih", "Achalash", "Chalah"]
+  },
+  {
+    id: 80,
+    telugu: "అమానీ మానదో మాన్యో లోకస్వామీ త్రిలోకధృత్ ।\nసుమేధా మేధజో ధన్యః సత్యమేధా ధరాధరః ॥",
+    transliteration: "Amani manado manyo lokasvami tri-loka-dhrit |\nsumedha medhajo dhanyah satya-medha dhara-dharah ||",
+    teluguMeaning: "అమానీ, మానదుడు, మాన్యుడు, లోకస్వామి, త్రిలోకధృత్, సుమేధుడు, మేధజుడు, ధన్యుడు, సత్యమేధ, ధరాధరుడు.",
+    englishMeaning: "The honorless, the honor-giver, the honorable, the Lord of the world, the supporter of the three worlds, the intelligent, the sacrifice-born, the blessed, the truth-sacrificed, the bearer of the earth.",
+    names: ["Amani", "Manadah", "Manyah", "Lokasvami", "Tri-loka-dhrit", "Su-medhah", "Medhajah", "Dhanyah", "Satya-medhah", "Dhara-dharah"]
+  },
+  {
+    id: 81,
+    telugu: "తేజోఽవृषో ద్యుతిధరః సర్వశస్త్రभृतాంవరః ।\nప్రగ్రహో నిగ్రహో వ్యగ్రో నैకశృంగో గదాగ్రజః ॥",
+    transliteration: "Tejo'vrisho dyuti-dharah sarva-shastra-bhritam-varah |\npragraho nigraho vyagro naika-shringo gada-agrajah ||",
+    teluguMeaning: "తేజోఽవృషుడు, ద్యుతిధరుడు, సర్వశస్త్రభృతాం వరుడు, ప్రగ్రహుడు, నిగ్రహుడు, వ్యగ్రుడు, నైకశృంగుడు, గదాగ్రజుడు.",
+    englishMeaning: "The non-raining light, the light-bearer, the best among weapon-bearers, the receiver, the restrainer, the active, the multi-horned, the elder brother of the mace.",
+    names: ["Tejah", "Avrishah", "Dyuti-dharah", "Sarva-shastra-bhritam-varah", "Prahraho", "Nigrahah", "Vyagrah", "Naika-shringah", "Gada-agrajah"]
+  },
+  {
+    id: 82,
+    telugu: "చతుర్మూర్తి శ్చతుర్బాహు శ్చతుర్వ్యూహ శ్చతుర్గतिः ।\nచతురాత్మా చతుర్భావశ్చతుర్వేదవిదేకపాత్ ॥",
+    transliteration: "Chatur-murtish chatur-bahush chatur-vyuhash chatur-gatih |\nchaturatma chatur-bhavash chatur-veda-vid-eka-pat ||",
+    teluguMeaning: "చతుర్మూర్తి, చతుర్బాహువు, చతుర్వ్యూహుడు, చతుర్గతి, చతురాత్మ, చతుర్భావుడు, చతుర్వేదవిత్, ఏకపాత్.",
+    englishMeaning: "The four-formed, the four-armed, the four-fold formation, the four paths, the four-souled, the four states, the knower of four Vedas, the one-footed.",
+    names: ["Chatur-murtih", "Chatur-bahuh", "Chatur-vyuhah", "Chatur-gatih", "Chaturatma", "Chatur-bhavah", "Chatur-veda-vit", "Eka-pat"]
+  },
+  {
+    id: 83,
+    telugu: "సమావర్తోఽనिवृత్తాత్మా దుర్जయో దుरतिक్రమః ।\nదుర్లభో దుర్గమో దుర్గో దురావాసో దురారిహా ॥",
+    transliteration: "Samavarto'nivrittatma durjayo duratikramah |\ndurlabho durgamo durgo duravaso durari-ha ||",
+    teluguMeaning: "సమావర్తుడు, అనివృత్తాత్మ, దుర్జయుడు, దురతిక్రముడు, దుర్లభుడు, దుర్గముడు, దుర్గుడు, దురావాసుడు, దురారిహుడు.",
+    englishMeaning: "The revolving, the non-retiring soul, the invincible, the unsurpassable, the hard-to-attain, the inaccessible, the remover of difficulties, the hard-to-reside, the destroyer of enemies.",
+    names: ["Samavartah", "Anivrittatma", "Durjayah", "Duratikramah", "Durlabhah", "Durgamah", "Durgah", "Duravashah", "Durari-ha"]
+  },
+  {
+    id: 84,
+    telugu: "శుభాంగో లోకసారంగః సుతంతుస్తంతువర్ధనః ।\nఇంద్రకर్మా మహాకర్మా కృతకర్మా కృతాగమః ॥",
+    transliteration: "Shubhango loka-sarangah su-tantust-tantu-vardhanah |\nindra-karma maha-karma kritakarma kritagamah ||",
+    teluguMeaning: "శుభాంగుడు, లోకసారంగుడు, సుతంతువు, తంతువర్ధనుడు, ఇంద్రకర్మ, మహాకర్మ, కృతకర్మ, కృతాగముడు.",
+    englishMeaning: "The beautiful-bodied, the essence of the world, the well-threaded, the thread-increaser, the doer of Indra-like deeds, the great-actor, the doer of deeds, the maker of scriptures.",
+    names: ["Shubhangah", "Loka-sarangah", "Su-tantuh", "Tantu-vardhanah", "Indra-karma", "Maha-karma", "Krita-karma", "Kritagamah"]
+  },
+  {
+    id: 85,
+    telugu: "ఉద్భవః సుందరః సుందో రత్ననాభః సులోచనః ।\nఅర్కో వాజసనః శృంగీ జయంతః సర్వవిజ్జయీ ॥",
+    transliteration: "Udbhavah sundarah sundo ratna-nabhah su-lochanah |\narko vaja-sanah shringi jayantah sarva-vij-jayi ||",
+    teluguMeaning: "ఉద్భవుడు, సుందరుడు, సుందుడు, రత్ననాభుడు, సులోచనుడు, అర్కుడు, వాజసనుడు, శృంగీ, జయంతుడు, సర్వవిత్, జయీ.",
+    englishMeaning: "The origin, the beautiful, the beautiful, the gem-navelled, the beautiful-eyed, the sun, the horse-seated, the horned, the victorious, the all-knowing, the victorious.",
+    names: ["Udbhavah", "Sundarah", "Sundah", "Ratna-nabhah", "Su-lochanah", "Arkah", "Vaja-sanah", "Shringi", "Jayantah", "Sarva-vit", "Jayi"]
+  },
+  {
+    id: 86,
+    telugu: "సువర్ణబిందురక్షోభ్యః సర్వవాగీశ్వరేశ్వరః ।\nమహాహృదో మహాగర్తో మహాభూతో మహానిధిః ॥",
+    transliteration: "Suvarna-bindur-akshobhyah sarva-vagi-ishvareeshvarah |\nmaha-hrido maha-garto maha-bhuto maha-nidhih ||",
+    teluguMeaning: "సువర్ణబిందువు, అక్షోభ్యుడు, సర్వవాగీశ్వరేశ్వరుడు, మహాహృదుడు, మహాగర్తుడు, మహాభూతుడు, మహానిధి.",
+    englishMeaning: "The golden-dropped, the unshakable, the Lord of all speech-Lords, the great-hearted, the great-deep, the great-being, the great-treasure.",
+    names: ["Suvarna-binduh", "Akshobhyah", "Sarva-vagi-ishvareeshvarah", "Maha-hridah", "Maha-gartah", "Maha-bhutah", "Maha-nidhih"]
+  },
+  {
+    id: 87,
+    telugu: "కుముదః కుందరః కుందః పర్జన్యః పావనోఽనिलః ।\nఅమృతాశోఽమృతవపుః సర్వజ్ఞః సర్వతోముఖః ॥",
+    transliteration: "Kumudah kundarah kundah parjanyah pavano'nilah |\namritasho'mrita-vapuh sarvajnah sarvato-mukhah ||",
+    teluguMeaning: "కుముదుడు, కుందరుడు, కుందుడు, పర్జన్యుడు, పావనుడు, అనిలుడు, అమృతాశీ, అమృతవపువు, సర్వజ్ఞుడు, సర్వతోముఖుడు.",
+    englishMeaning: "The joy-giver, the jasmine, the jasmine, the rain-cloud, the purifier, the wind, the nectar-eating, the nectar-formed, the omniscient, the all-faced.",
+    names: ["Kumudah", "Kundarah", "Kundah", "Parjanyah", "Pavanah", "Anilah", "Amritashah", "Amrita-vapuh", "Sarvajnah", "Sarvato-mukhah"]
+  },
+  {
+    id: 88,
+    telugu: "సులభః సువ్రతః సిద్ధః శత్రుజిచ్ఛత్రుతాపనః ।\nన్యగ్రోధోఽదుంబరోఽశ్వత్థశ్చాణూరాంధ్ర నిషూదనః ॥",
+    transliteration: "Sulabhah suvratah siddhah shatru-jich-chhatru-tapanah |\nnyagrodho'dumbaro'shvatthash-chanurandhra-nishudanah ||",
+    teluguMeaning: "సులభుడు, సువ్రతుడు, సిద్ధుడు, శత్రుజిత్, శత్రుతాపనుడు, న్యగ్రోధుడు, అదుంబరుడు, అశ్వత్థుడు, చాణూరాంధ్ర నిషూదనుడు.",
+    englishMeaning: "The easily attainable, the well-vowed, the perfected, the conqueror of enemies, the afflicter of enemies, the banyan, the fig, the peepal, the slayer of Canura and Andhra.",
+    names: ["Sulabhah", "Suvratah", "Siddhah", "Shatru-jit", "Shatru-tapanah", "Nyagrodhah", "Adumbarah", "Ashvatthah", "Chanurandhra-nishudanah"]
+  },
+  {
+    id: 89,
+    telugu: "సहస్రార్చిః సప్తजిహ్వః సప్తైధాః సప్తవాహనః ।\nఅమూర్తిరనఘోఽచింత్యో భయకృద్భయనాశనః ॥",
+    transliteration: "Sahasrarchih sapta-jihvah saptaidhah sapta-vahanah |\namurtir-anagho'chintyo bhaya-krid-bhaya-nashanah ||",
+    teluguMeaning: "సహస్రార్చి, సప్తజిహ్వుడు, సప్తైధుడు, సప్తవాహనుడు, అమూర్తి, అనఘుడు, అచింత్యుడు, భయకృత్, భయనాశనుడు.",
+    englishMeaning: "The thousand-rayed, the seven-tongued, the seven-fueled, the seven-vehicled, the formless, the sinless, the inconceivable, the fear-maker, the fear-destroyer.",
+    names: ["Sahasrarchih", "Sapta-jihvah", "Saptaidhah", "Sapta-vahanah", "Amurtih", "Anaghah", "Achintyah", "Bhaya-krit", "Bhaya-nashanah"]
+  },
+  {
+    id: 90,
+    telugu: "అణుర్బృహత్కృశః స్థూలో గుణభृన్నిర్గుణో మహాన్ ।\nఅధృతః స్వధృతః స్వాస్యః ప్రాగ్వంశో వంశవర్ధనః ॥",
+    transliteration: "Anur-brihat-krishah sthulo guna-bhrin-nirguno mahan |\nadhritah sva-dhritah svasyah prag-vamsho vamsha-vardhanah ||",
+    teluguMeaning: "అణువు, బృహత్, కృశుడు, స్థూలుడు, గుణభృత్, నిర్గుణుడు, మహాన్, అధృతుడు, స్వధృతుడు, స్వాస్యుడు, ప్రాగ్వంశుడు, వంశవర్ధనుడు.",
+    englishMeaning: "The minute, the vast, the thin, the gross, the quality-bearer, the qualityless, the great, the unsupported, the self-supported, the self-faced, the first-ancestor, the family-increaser.",
+    names: ["Anuh", "Brihat", "Krishah", "Sthulah", "Guna-bhrit", "Nirgunah", "Mahan", "Adhritah", "Sva-dhritah", "Svasyah", "Prag-vamshah", "Vamsha-vardhanah"]
+  },
+  {
+    id: 91,
+    telugu: "భారభృత్ కథితో యోగీ యోగీశః సర్వకామదః ।\nఆశ్రమః శ్రమణః, క్షామః సుపర్ణో వాయువాహనః ॥",
+    transliteration: "Bara-bhrit kathito yogi yogisha sarva-kamadah |\nashramah shramanah, kshamah suparno vayu-vahanah ||",
+    teluguMeaning: "భారభృత్, కథితుడు, యోగీ, యోగీశుడు, సర్వకామదుడు, ఆశ్రముడు, శ్రమణుడు, క్షాముడు, సుపర్ణుడు, వాయువాహనుడు.",
+    englishMeaning: "The burden-bearer, the spoken of, the yogi, the Lord of yogis, the fulfiller of all desires, the ashrama, the tireless, the contented, the beautiful-winged, the wind-borne.",
+    names: ["Bhara-bhrit", "Kathitah", "Yogi", "Yogishah", "Sarva-kamadah", "Ashramah", "Shramanah", "Kshamah", "Suparnah", "Vayu-vahanah"]
+  },
+  {
+    id: 92,
+    telugu: "ధనుర్ధरो ధనुర్వేదो దంडో దమయితా దమః ।\nఅపరాజితః సర్వసహో నియంతాఽనియమోఽయమః ॥",
+    transliteration: "Dhanur-dharo dhanur-vedo dando damayita damah |\naparajitah sarva-saho niyanta'niyamo'yamah ||",
+    teluguMeaning: "ధనుర్ధరుడు, ధనుర్వేదుడు, దండుడు, దమయిత, దమః, అపరాజితుడు, సర్వసహుడు, నియంత, అనియముడు, అయముడు.",
+    englishMeaning: "The bow-bearer, the science of archery, the rod, the subduer, the self-control, the unconquered, the all-enduring, the controller, the unrestricted, the unrestricted one.",
+    names: ["Dhanur-dharah", "Dhanur-vedah", "Dandah", "Damayita", "Damah", "Aparajitah", "Sarva-sahah", "Niyanta", "Aniyamah", "Ayamah"]
+  },
+  {
+    id: 93,
+    telugu: "సత్త్వవాన్ సాత్త్వికః సత్యః సత్యధర్మపరాయణః ।\nఅభిప్రాయః ప్రియార్హోఽర్హః ప్రియకృత్ ప్రీతివర్ధనః ॥",
+    transliteration: "Sattvavan sattvikah satyah satya-dharma-parayanah |\nabhiprayah priyarho'hrah priya-krit priti-vardhanah ||",
+    teluguMeaning: "సత్త్వవాన్, సాత్త్వికుడు, సత్యుడు, సత్యధర్మపరాయణుడు, అభిప్రాయుడు, ప్రియార్హుడు, అర్హుడు, ప్రియకృత్, ప్రీతివర్ధనుడు.",
+    englishMeaning: "The pure-minded, the sattvic, the truthful, the devoted to truth and dharma, the intention, the worthy of love, the worthy, the beloved-maker, the love-increaser.",
+    names: ["Sattvavan", "Sattvikah", "Satyah", "Satya-dharma-parayanah", "Abhiprayah", "Priyarhah", "Arhah", "Priya-krit", "Priti-vardhanah"]
+  },
+  {
+    id: 94,
+    telugu: "విహాయసగतिर్జ్యోతిః సురుచిర్హుతభుగ్విభుః ।\nరవిర్విరోచనః సూర్యః సవితా రవిలోచనః ॥",
+    transliteration: "Vihayasa-gatir-jyotih suruchir-huta-bhug-vibhuh |\nravir-virochanah suryah savita ravi-lochanah ||",
+    teluguMeaning: "విహాయసగతి, జ్యోతి, సురుచి, హుతభుక్, విభువు, రవి, విరోచనుడు, సూర్యుడు, సవిత, రవిలోచనుడు.",
+    englishMeaning: "The sky-going, the light, the radiant, the fire-consumer, the all-pervading, the sun, the illuminating, the sun, the sun-stimulating, the sun-eyed.",
+    names: ["Vihayasa-gatih", "Jyotih", "Suruchih", "Huta-bhuk", "Vibhuh", "Ravih", "Virochanah", "Suryah", "Savita", "Ravi-lochanah"]
+  },
+  {
+    id: 95,
+    telugu: "అనంతो హుతభుగ్భోక్తా సుఖదో నైకజోఽగ్రజః ।\nఅనిర్విణ్ణః సదామర్షీ లోకధిష్ఠానమద్భుతః ॥",
+    transliteration: "Ananto huta-bhug-bhokta sukhado naikajo'grajah |\nanirvinnah sada-marshi loka-dhishthanam-adbhutah ||",
+    teluguMeaning: "అనంతుడు, హుతభుక్, భోక్త, సుఖదుడు, నైకజుడు, అగ్రజుడు, అనిర్విణ్ణుడు, సదామర్షి, లోకధిష్ఠానము, అద్భుతుడు.",
+    englishMeaning: "The infinite, the fire-consumer, the enjoyer, the happiness-giver, the multi-born, the first-born, the sorrowless, the always-forbearing, the support of worlds, the wonderful.",
+    names: ["Anantah", "Huta-bhuk", "Bhokta", "Sukhadah", "Naika-jah", "Agrajah", "Anirvinnah", "Sada-marshi", "Loka-dhishthanam", "Adbhutah"]
+  },
+  {
+    id: 96,
+    telugu: "సनాత్సనాతనతమః కపిలః కపిరవ్యయః ।\nస్వస్తిదః స్వస్తికృత్స్వస్తిః స్వస్తిభుక్ స్వస్తిదక్షిణః ॥",
+    transliteration: "Sanat sanatana-tamah kapilah kapir-avyayah |\nsvasti-dah svasti-krit-svastih svasti-bhuk svasti-dakshinah ||",
+    teluguMeaning: "సనాత్, సనాతనతముడు, కపిలుడు, కపి, అవ్యయుడు, స్వస్తిదుడు, స్వస్తికృత్, స్వస్తి, స్వస్తిభుక్, స్వస్తిదక్షిణుడు.",
+    englishMeaning: "The eternal, the most ancient, Kapila, the imperishable, the welfare-giver, the welfare-maker, the welfare, the welfare-enjoyer, the welfare-dakshina.",
+    names: ["Sanat", "Sanatana-tamah", "Kapilah", "Kapih", "Avyayah", "Svasti-dah", "Svasti-krit", "Svastih", "Svasti-bhuk", "Svasti-dakshinah"]
+  },
+  {
+    id: 97,
+    telugu: "అरौద్రః కుండలీ చక్రీ విక్రమ్యూర్జిतशासनః ।\nశब్దాతिगః శब్దసహః శిశిరః శర్వరీకరః ॥",
+    transliteration: "Araudrah kundali chakri vikramyur-jita-shasanah |\nshabdatigah shabda-sahah shishirah sharvari-karah ||",
+    teluguMeaning: "అరౌద్రుడు, కుండలీ, చక్రీ, విక్రముడు, ఊర్జితశాసనుడు, శబ్దాతిగుడు, శబ్దసహుడు, శిశిరుడు, శర్వరీకరుడు.",
+    englishMeaning: "The non-terrifying, the earring-wearer, the discus-bearer, the courageous, the firmly-ruling, the beyond-sound, the sound-enduring, the cold, the night-maker.",
+    names: ["Araudrah", "Kundali", "Chakri", "Vikramah", "Urjita-shasanah", "Shabdatigah", "Shabda-sahah", "Shishirah", "Sharvari-karah"]
+  },
+  {
+    id: 98,
+    telugu: "అక్రూరః పేశలో దక్షో దక్షిణః, క్షమిణాంవరః ।\nవిద్వత్తమో వీతభయః పుణ్యశ్రవణకీర్తనః ॥",
+    transliteration: "Akrurah peshalo daksho dakshinah, kshaminam-varah |\nvidvat-tamo vita-bhayah punya-shravana-kirtanah ||",
+    teluguMeaning: "అక్రూరుడు, పేశలుడు, దక్షుడు, దక్షిణుడు, క్షమిణాం వరుడు, విద్వత్తముడు, వీతభయుడు, పుణ్యశ్రవణకీర్తనుడు.",
+    englishMeaning: "The non-cruel, the charming, the skillful, the south, the best among the patient, the most learned, the fearless, the meritorious-hearing-chanting one.",
+    names: ["Akrurah", "Peshalah", "Dakshah", "Dakshinah", "Kshaminam-varah", "Vidvat-tamah", "Vita-bhayah", "Punya-shravana-kirtanah"]
+  },
+  {
+    id: 99,
+    telugu: "ఉత్తారణో దుష్కृతిహా పుణ్యో దుఃస్వప్ననాశనః ।\nవీరహా రక్షణః సంతో జీవనః పర్యవస్థితః ॥",
+    transliteration: "Uttarano dushkriti-ha punyo duhswapna-nashanah |\nviraha rakshanah santo jivanah paryavasthitah ||",
+    teluguMeaning: "ఉత్తారణుడు, దుష్కృతిహుడు, పుణ్యుడు, దుఃస్వప్ననాశనుడు, వీరహుడు, రక్షణుడు, సంతుడు, జీవనుడు, పర్యవస్థితుడు.",
+    englishMeaning: "The deliverer, the destroyer of evil deeds, the meritorious, the destroyer of bad dreams, the destroyer of heroes, the protector, the existent, the living, the all-pervading.",
+    names: ["Uttaranah", "Dushkriti-ha", "Punyah", "Duhswapna-nashanah", "Viraha", "Rakshanah", "Santah", "Jivanah", "Paryavasthitah"]
+  },
+  {
+    id: 100,
+    telugu: "అనంतरूపोఽనంత శ్రీర్జితమన్యుర్భయాపహః ।\nచతुరश్రో గభీరాత్మా విదిశో వ్యాదిశో దిశః ॥",
+    transliteration: "Ananta-rupo'nanta shree-r-jita-manyur-bhaya-apahah |\nchaturashro gabhira-atma vidi-sho vyadi-sho dishah ||",
+    teluguMeaning: "అనంతరూపుడు, అనంత శ్రీయుక్తుడు, జితమన్యుడు, భయాపహుడు, చతురశ్రుడు, గభీరాత్మ, విదిశుడు, వ్యాదిశుడు, దిశలు.",
+    englishMeaning: "The infinite-formed, the infinitely glorious, the conqueror of anger, the remover of fear, the square, the deep-souled, the directions, the intermediate directions, the directions.",
+    names: ["Ananta-rupah", "Ananta-shrih", "Jita-manyuh", "Bhaya-apahah", "Chaturashrah", "Gabhira-atma", "Vidi-shah", "Vyadi-shah", "Dishah"]
+  },
+  {
+    id: 101,
+    telugu: "అనాదిర్భూర్భువో లక్ష్మీః సువీరో రుచిరాంగదః ।\nజననో జనజన్మాదిర్భీమో భీమపరాక్రమః ॥",
+    transliteration: "Anadir-bhur-bhuvo lakshmih su-viro ruchirangadah |\njanano jana-janmadir-bhimo bhima-parakramah ||",
+    teluguMeaning: "అనాది, భూః, భువో లక్ష్మీ, సువీరుడు, రుచిరాంగదుడు, జననుడు, జనజన్మాది, భీముడు, భీమపరాక్రముడు.",
+    englishMeaning: "The beginningless, the earth, the light of the world, the valiant, the radiant-bodied, the father, the source of all beings, the terrible, the terribly powerful.",
+    names: ["Anadih", "Bhuh", "Bhuvo lakshmih", "Su-virah", "Ruchirangadah", "Jananah", "Jana-janmadih", "Bhimah", "Bhima-parakramah"]
+  },
+  {
+    id: 102,
+    telugu: "ఆధారనిలయోఽధాతా పుష్పహాసః ప్రజాగరః ।\nఊర్ధ్వగః సత్పథాచారః ప్రాణదః ప్రణవః పణః ॥",
+    transliteration: "Adhara-nilayo'dhata pushpa-hasah prajagarah |\nurdhvagah sat-pathacharah pranadah pranavah panah ||",
+    teluguMeaning: "ఆధారనిలయుడు, అధాత, పుష్పహాసుడు, ప్రజాగరుడు, ఊర్ధ్వగుడు, సత్పథాచారి, ప్రాణదుడు, ప్రణవుడు, పణుడు.",
+    englishMeaning: "The support-foundation, the supporter, the flower-smiling, the ever-awake, the upward-going, the good-path-follower, the life-giver, the Pranava, the wage.",
+    names: ["Adhara-nilayah", "Adhata", "Pushpa-hasah", "Prajagarah", "Urdhvagah", "Sat-pathacharah", "Pranadah", "Pranavah", "Panah"]
+  },
+  {
+    id: 103,
+    telugu: "ప్రమాణం ప్రాణనిలయః ప్రాణభృత్ ప్రాణజీవనః ।\nతత్త్వం తత్త్వవిదేకాత్మా జన్మమృత్యుజరాతిగః ॥",
+    transliteration: "Pramanam prana-nilayah prana-bhrit prana-jivanah |\ntattvam tattva-vid-ekatma janma-mrityu-jara-atigah ||",
+    teluguMeaning: "ప్రమాణము, ప్రాణనిలయుడు, ప్రాణభృత్, ప్రాణజీవనుడు, తత్త్వము, తత్త్వవిత్, ఏకాత్మ, జన్మమృత్యుజరాతిగుడు.",
+    englishMeaning: "The authority, the abode of life, the life-supporter, the life-giver, the truth, the knower of truth, the one Self, the transcender of birth, death and old age.",
+    names: ["Pramanam", "Prana-nilayah", "Prana-bhrit", "Prana-jivanah", "Tattvam", "Tattva-vit", "Eka-atma", "Janma-mrityu-jara-atigah"]
+  },
+  {
+    id: 104,
+    telugu: "భూర్భువః స్వస్తరుస్తారః సవితా ప్రపితామహః ।\nయజ్ఞో యజ్ఞపతిర్యజ్వా యజ్ఞాంగో యజ్ఞవాహనః ॥",
+    transliteration: "Bhur-bhuvas-sva-taru-starah savita prapitamahah |\nyajno yajna-patir-yajva yajnano yajna-vahanah ||",
+    teluguMeaning: "భూః, భువః, స్వః, తరువు, తారుడు, సవిత, ప్రపితామహుడు, యజ్ఞుడు, యజ్ఞపతి, యజ్వా, యజ్ఞాంగుడు, యజ్ఞవాహనుడు.",
+    englishMeaning: "The earth, the atmosphere, heaven, the tree, the savior, the sun, the great-grandfather, the sacrifice, the Lord of sacrifice, the sacrificer, the limb of sacrifice, the vehicle of sacrifice.",
+    names: ["Bhuh", "Bhuvah", "Svah", "Taruh", "Tarah", "Savita", "Prapitamahah", "Yajnah", "Yajna-patih", "Yajva", "Yajango", "Yajna-vahanah"]
+  },
+  {
+    id: 105,
+    telugu: "యజ్ఞభృద్ యజ్ఞకృద్ యజ్ఞీ యజ్ఞభుక్ యజ్ఞసాధనః ।\nయజ్ఞాంతకృద్ యజ్ఞగుహ్యమన్నమన్నాద ఏవ చ ॥",
+    transliteration: "Yajna-bhrid yajna-krid yajni yajna-bhuk yajna-sadhanah |\nyajnanta-krid yajna-guhyam-annam-annada eva cha ||",
+    teluguMeaning: "యజ్ఞభృత్, యజ్ఞకృత్, యజ్ఞీ, యజ్ఞభుక్, యజ్ఞసాధనుడు, యజ్ఞాంతకృత్, యజ్ఞగుహ్యము, అన్నము, అన్నాదుడు.",
+    englishMeaning: "The sacrifice-supporter, the sacrifice-maker, the sacrifice, the sacrifice-enjoyer, the sacrifice-means, the sacrifice-end-maker, the sacrifice-secret, the food, the food-eater.",
+    names: ["Yajna-bhrit", "Yajna-krit", "Yajni", "Yajna-bhuk", "Yajna-sadhanah", "Yajnanta-krit", "Yajna-guhyam", "Annam", "Annada"]
+  },
+  {
+    id: 106,
+    telugu: "ఆత్మయోనిః స్వయంజాతో వైఖానః సామగాయనః ।\nదేవకీనందనః స్రష్టా క్షితీశః పాపనాశనః ॥",
+    transliteration: "Atma-yonih svayam-jato vaikhanah samagayanah |\ndevaki-nandanah srashta kshiteshah papa-nashanah ||",
+    teluguMeaning: "ఆత్మయోని, స్వయంజాతుడు, వైఖానుడు, సామగాయనుడు, దేవకీనందనుడు, స్రష్ట, క్షితీశుడు, పాపనాశనుడు.",
+    englishMeaning: "The self-wombed, the self-born, the Vaikhana, the Sama singer, the joy of Devaki, the creator, the Lord of the earth, the destroyer of sins.",
+    names: ["Atma-yonih", "Svayam-jatah", "Vaikhanah", "Samagayana", "Devaki-nandanah", "Srashta", "Kshiteshah", "Papa-nashanah"]
+  },
+  {
+    id: 107,
+    telugu: "శంఖభృన్నందकీ చక్రీ శార్​ఙ్గधన్వా గదాధరః ।\nరథాంగపాణిరక్షోభ్యః సర్వప్రహరణాయుధః ॥",
+    transliteration: "Shankha-bhrin-nandaki chakri sharnga-dhanva gadadharah |\nrathanga-panir-akshobhyah sarva-praharana-ayudhah ||",
+    teluguMeaning: "శంఖభృత్, నందకీ చక్రీ, శార్​ఙ్గధన్వా, గదాధరుడు, రథాంగపాణి, అక్షోభ్యుడు, సర్వప్రహరణాయుధుడు. శ్రీ సర్వప్రహరణాయుధ ఓం నమ ఇతి.",
+    englishMeaning: "The conch-bearer, the Nandaka sword, the discus-bearer, the Sharnga bow, the mace-bearer, the chariot-handed, the unshakable, armed with all weapons. Sri Sarva-praharana-ayudha Om nama iti.",
+    names: ["Shankha-bhrit", "Nandaki", "Chakri", "Sharnga-dhanva", "Gada-dharah", "Rathanga-panih", "Akshobhyah", "Sarva-praharana-ayudhah"]
   }
 ];
 
