@@ -17,47 +17,55 @@ export interface Section {
   shlokas: Shloka[];
 }
 
-// Dhyana Shlokas (Meditation Verses)
-export const dhyanaShlokas: Shloka[] = [
+// ============================================================
+// Intro Section 1: Suklambaradharam (Invocation - Verses 1-2)
+// ============================================================
+export const invocations: Shloka[] = [
   {
     id: 1,
-    telugu: "ఓం శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ॥",
-    transliteration: "Om shuklambaradharam vishnum shashivarnam chaturbhujam |\nprasannavadanam dhyayet sarvavighnopashantaye ||",
+    telugu: "ఓం శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ॥ 1 ॥",
+    transliteration: "Om shuklambaradharam vishnum shashivarnam chaturbhujam |\nprasannavadanam dhyayet sarvavighnopashantaye || 1 ||",
     teluguMeaning: "తెల్లని వస్త్రములు ధరించిన, చంద్రుని వర్ణము గల, నాలుగు చేతులు గల, ప్రసన్న వదనము గల విష్ణువును సర్వ విఘ్నములు తొలగించుటకై ధ్యానించవలెను.",
     englishMeaning: "I meditate on Lord Vishnu who wears white garments, who has the complexion of the moon, who has four arms and a pleasant face, for the removal of all obstacles."
   },
   {
     id: 2,
-    telugu: "యస్యద్విరదవక్త్రాద్యాః పారిషద్యాః పరః శతమ్ ।\nవిఘ్నం నిఘ్నంతి సతతం విష్వక్సేనం తమాశ్రయే ॥",
-    transliteration: "Yasya dviradavaktradayah parishadyah parah shatam |\nvighnam nighnanti satatam vishvaksenam tamashraye ||",
+    telugu: "యస్యద్విరదవక్త్రాద్యాః పారిషద్యాః పరః శతమ్ ।\nవిఘ్నం నిఘ్నంతి సతతం విష్వక్సేనం తమాశ్రయే ॥ 2 ॥",
+    transliteration: "Yasya dviradavaktradayah parishadyah parah shatam |\nvighnam nighnanti satatam vishvaksenam tamashraye || 2 ||",
     teluguMeaning: "గజముఖము మొదలగు వానియెడ నూరుగురు శతములు సతతము విఘ్నములను నశింపజేయుచున్నవి. ఆ విశ్వక్సేనుని నేను శరణు పొందుచున్నాను.",
     englishMeaning: "I take refuge in Lord Vishvaksena, whose hundred attendants beginning with the elephant-faced one, constantly destroy all obstacles."
-  },
+  }
+];
+
+// ============================================================
+// Intro Section 2: Poorva Peethika (Introduction - Verses 3-22)
+// ============================================================
+export const poorvaPeethika: Shloka[] = [
   {
     id: 3,
-    telugu: "వ్యాసం వసిష్ఠ నప్తారం శక్తేః పౌత్రమకల్మషమ్ ।\nపరాశరాత్మజం వందే శుకతాతం తపోనిధిమ్ ॥",
-    transliteration: "Vyasam vasishta naptaram shakteh pautramakalmasham |\nparasharatmajam vande shukatatam taponidhim ||",
-    teluguMeaning: "వసిష్ఠుని మనుమడైన శక్తి కుమారుని కొడుకైన పరాశరుని కుమారుడైన శుకునికి తండ్రియైన తపోనిధియగు వ్యాసుని వందనము చేయుచున్నాను.",
+    telugu: "వ్యాసం వసిష్ఠ నప్తారం శక్తేః పౌత్రమకల్మషమ్ ।\nపరాశరాత్మజం వందే శుకతాతం తపోనిధిమ్ ॥ 3 ॥",
+    transliteration: "Vyasam vasishta-naptaram shakteh pautram-akalmasham |\nparashara-atmajam vande shuka-tatam tapo-nidhim || 3 ||",
+    teluguMeaning: "వసిష్ఠుని మనుమడైన శక్తి పౌత్రుడైన అకల్మషుడైన, పరాశరుని కుమారుడైన, శుకునికి తండ్రియైన తపోనిధియగు వ్యాసుని వందనము చేయుచున్నాను.",
     englishMeaning: "I bow to Vyasa, the grandson of Vashishta, the son of Shakti's son Parashara, the father of Shuka, and the treasure-house of austerity."
   },
   {
     id: 4,
-    telugu: "వ్యాసాయ విష్ణు రూపాయ వ్యాసరూపాయ విష్ణవే ।\nనమో వై బ్రహ్మనిధయే వాసిష్ఠాయ నమో నమః ॥",
-    transliteration: "Vyasaya vishnu rupaya vyasarupaya vishnave |\nnamo vai brahmanidhaye vasishthaya namo namah ||",
-    teluguMeaning: "విష్ణు రూపమున్న వ్యాసునకును, వ్యాస రూపమున్న విష్ణువునకును, బ్రహ్మ నిధియగు వాసిష్ఠునకును నమస్కారము.",
+    telugu: "వ్యాసాయ విష్ణు రూపాయ వ్యాసరూపాయ విష్ణవే ।\nనమో వై బ్రహ్మనిధయే వాసిష్ఠాయ నమో నమః ॥ 4 ॥",
+    transliteration: "Vyasaya vishnu rupaya vyasa-rupaya vishnave |\nnamo vai brahma-nidhaye vasishthaya namo namah || 4 ||",
+    teluguMeaning: "విష్ణు రూపమైన వ్యాసునకును, వ్యాస రూపమైన విష్ణువునకును, బ్రహ్మ నిధియగు వాసిష్ఠునకును నమస్కారము, నమస్కారము.",
     englishMeaning: "Salutations to Vyasa who is the form of Vishnu, and to Vishnu who is the form of Vyasa; salutations again and again to the treasure of Brahman, the descendant of Vashishta."
   },
   {
     id: 5,
-    telugu: "అవికారాయ శుద్ధాయ నిత్యాయ పరమాత్మనే ।\nసదైక రూప రూపాయ విష్ణవే సర్వజిష్ణవే ॥",
-    transliteration: "Avikaraya shuddhaya nityaya paramatmane |\nsadaika rupa rupaya vishnave sarvajishnave ||",
+    telugu: "అవికారాయ శుద్ధాయ నిత్యాయ పరమాత్మనే ।\nసదైక రూప రూపాయ విష్ణవే సర్వజిష్ణవే ॥ 5 ॥",
+    transliteration: "Avikaraya shuddhaya nityaya paramatmane |\nsadaika-rupa-rupaya vishnave sarva-jishnave || 5 ||",
     teluguMeaning: "వికారము లేనివాడైన, శుద్ధుడైన, నిత్యుడైన, పరమాత్మయగు, ఎల్లప్పుడు ఒకే రూపము గలవాడైన, సర్వమును జయించు విష్ణువునకు నమస్కారము.",
     englishMeaning: "Salutations to Lord Vishnu who is without change, pure, eternal, the Supreme Self, of one eternal form, and the conqueror of all."
   },
   {
     id: 6,
-    telugu: "యస్య స్మరణమాత్రేణ జన్మసంసారబంధనాత్ ।\nవిముచ్యతే నమస్తస్మై విష్ణవే ప్రభవిష్ణవే ॥",
-    transliteration: "Yasya smaranamatrena janmasamsarabandhanat |\nvimuchyate namastasmai vishnave prabhavishnave ||",
+    telugu: "యస్య స్మరణమాత్రేణ జన్మసంసారబంధనాత్ ।\nవిముచ్యతే నమస్తస్మై విష్ణవే ప్రభవిష్ణవే ॥ 6 ॥",
+    transliteration: "Yasya smarana-matrena janma-samsara-bandhanat |\nvimuchyate namas-tasmai vishnave prabhavishnave || 6 ||",
     teluguMeaning: "ఎవని స్మరణ మాత్రమున జన్మ సంసార బంధనములనుండి విముక్తి పొందుచున్నారో, ఆ ప్రభవిష్ణువునకు నమస్కారము.",
     englishMeaning: "Salutations to the all-pervading Lord Vishnu, by mere remembrance of whom one is liberated from the bondage of birth and transmigration."
   },
@@ -67,7 +75,223 @@ export const dhyanaShlokas: Shloka[] = [
     transliteration: "Om namo vishnave prabhavishnave |",
     teluguMeaning: "ఓం సర్వవ్యాపియైన ప్రభవిష్ణువునకు నమస్కారము.",
     englishMeaning: "Om, salutations to Lord Vishnu, the all-pervading supreme Lord."
+  },
+  {
+    id: 8,
+    telugu: "శ్రుత్వా ధర్మానశేషేణ పావనాని చ సర్వశః ।\nయుధిష్ఠిరః శాంతనవం పునరేవాభ్య భాషత ॥ 7 ॥",
+    transliteration: "Shrutva dharmam-asheshena pavanani cha sarvashah |\nyudhishthirah shantanavam punar-eva-abhyabhashata || 7 ||",
+    teluguMeaning: "శ్రీ వైశంపాయన ఉవాచ - ధర్మములను సమస్తముగా శ్రవణము చేసి, పావనములను సర్వశః తెలిసికొని, యుధిష్ఠిరుడు శాంతనవుడైన భీష్ముని పునః ప్రార్థించెను.",
+    englishMeaning: "Vaishampayana said: Having heard all the duties and all the purifying rites, Yudhishthira again addressed Bhishma, the son of Shantanu."
+  },
+  {
+    id: 9,
+    telugu: "కిమేకం దైవతం లోకే కిం వాఽప్యేకం పరాయణం\nస్తువంతః కం కమర్చంతః ప్రాప్నుయుర్మానవాః శుభమ్ ॥ 8 ॥",
+    transliteration: "Kim ekam daivatam loke kim vaapy-ekam parayanam |\nstuvantah kam kam-archantah prapnuyur-manavah shubham || 8 ||",
+    teluguMeaning: "యుధిష్ఠిర ఉవాచ - లోకమున ఏది ఏక దైవతము? ఏది ఏక పరాయణము? ఎవని స్తుతించి, ఎవని అర్చించి మానవులు శుభమును పొందుదురు?",
+    englishMeaning: "Yudhishthira said: Who is the one God in the world? Who is the one supreme refuge? Whom should one praise and worship to attain auspiciousness?"
+  },
+  {
+    id: 10,
+    telugu: "కో ధర్మः సర్వధర్మాణాం భవతః పరమో మతః ।\nకిం జపన్ముచ్యతే జంతుర్జన్మసంసార బంధనాత్ ॥ 9 ॥",
+    transliteration: "Ko dharmah sarva-dharmanam bhavatah paramo matah |\nkim japan-muchyate jantur-janma-samsara-bandhanat || 9 ||",
+    teluguMeaning: "సర్వ ధర్మములలో నీకు పరమ మతమైన ధర్మము ఏది? ఏది జపించిన జంతువు జన్మ సంసార బంధనమునుండి విముక్తి పొందును?",
+    englishMeaning: "Which is the highest dharma among all dharmas according to you? By chanting what does a being get freed from the bondage of birth and samsara?"
+  },
+  {
+    id: 11,
+    telugu: "జగత్ప్రభుం దేవదేవ మనంతం పురుషోత్తమమ్ ।\nస్తువన్నామ సహస్రేణ పురుషః సతతోత్థితః ॥ 10 ॥",
+    transliteration: "Jagat-prabhum deva-devam-anantam purushottamam |\nstuvan-nama sahasrena purushah satatotthitah || 10 ||",
+    teluguMeaning: "శ్రీ భీష్మ ఉవాచ - జగత్తుకు ప్రభువైన, దేవాధిదేవుడైన, అనంతుడైన, పురుషోత్తముడైన వానిని నామ సహస్రముతో స్తుతించుచు సతతము లేచియున్న పురుషుడు.",
+    englishMeaning: "Bhishma said: One who is always engaged in praising the Lord of the universe, the God of gods, the infinite, the Supreme Being, with a thousand names..."
+  },
+  {
+    id: 12,
+    telugu: "తమేవ చార్చయన్నిత్యం భక్త్యా పురుషమవ్యయమ్ ।\nధ్యాయన్ స్తువన్నమస్యంశ్చ యజమానస్తమేవ చ ॥ 11 ॥",
+    transliteration: "Tam-eva charchayan-nityam bhaktya purusham-avyayam |\ndhyayan stuvan-namasyamsh-cha yajamanas-tam-eva cha || 11 ||",
+    teluguMeaning: "ఆ అవ్యయ పురుషుని భక్తితో నిత్యము అర్చించుచు, ధ్యానించుచు, స్తుతించుచు, నమస్కరించుచు, యజించుచున్నవాడు.",
+    englishMeaning: "Always worshipping Him alone with devotion, meditating on, praising, saluting, and sacrificing to that imperishable Being..."
+  },
+  {
+    id: 13,
+    telugu: "అనాది నిధనం విష్ణుం సర్వలోక మహేశ్వరమ్ ।\nలోకాధ్యక్షం స్తువన్నిత్యం సర్వ దుఃఖాతిగో భవేత్ ॥ 12 ॥",
+    transliteration: "Anadi-nidhanam vishnum sarva-loka maheshvaram |\nlokadhyaksham stuvan-nityam sarva-duhkhatigo bhavet || 12 ||",
+    teluguMeaning: "ఆనాది అంతములు లేని విష్ణువును, సర్వ లోకములకు మహేశ్వరుని, లోకాధ్యక్షుని నిత్యము స్తుతించువాడు సర్వ దుఃఖములను తరించువాడగును.",
+    englishMeaning: "By always praising Vishnu who is without beginning or end, the great Lord of all worlds, the witness of all worlds, one goes beyond all sorrows."
+  },
+  {
+    id: 14,
+    telugu: "బ్రహ్మణ్యం సర్వ ధర్మజ్ఞం లోకానాం కీర్తి వర్ధనమ్ ।\nలోకనాథం మహద్భూతం సర్వభూత భవోద్భవం॥ 13 ॥",
+    transliteration: "Brahmanyam sarva-dharma-jnam lokanam kirti-vardhanam |\nloka-natham maha-bhutam sarva-bhuta-bhavodbhavam || 13 ||",
+    teluguMeaning: "బ్రహ్మజ్ఞానియై, సర్వ ధర్మములు తెలిసినవాడై, లోకముల కీర్తిని వృద్ధి చేయువాడై, లోకనాథుడై, మహద్భూతుడై, సర్వభూతముల భవోద్భవుడైన వానిని.",
+    englishMeaning: "He who is the knower of Brahman, who knows all dharmas, who increases the fame of the worlds, the Lord of the worlds, the great being, the source of all beings..."
+  },
+  {
+    id: 15,
+    telugu: "ఏష మే సర్వ ధర్మాణాం ధర్మోఽధిక తమోమతః ।\nయద్భక్త్యా పుండరీకాక్షం స్తవైరర్చేన్నరః సదా ॥ 14 ॥",
+    transliteration: "Esha me sarva-dharmanam dharmo'dhika-tamo matah |\nyad-bhaktya pundarika-aksham stavair-archen-narah sada || 14 ||",
+    teluguMeaning: "ఇది నా సర్వ ధర్మములలో అధికతమ మతము. భక్తితో పుండరీకాక్షుని స్తుతించి అర్చించుచున్నవాడు.",
+    englishMeaning: "This is the highest dharma among all dharmas according to me - one who with devotion always praises and worships the lotus-eyed Lord with hymns..."
+  },
+  {
+    id: 16,
+    telugu: "పరమం యో మహత్తేజః పరమం యో మహత్తపః ।\nపరమం యో మహద్బ్రహ్మ పరమం యః పరాయణమ్ ॥ 15 ॥",
+    transliteration: "Paramam yo maha-tejah paramam yo maha-tapah |\nparamam yo maha-brahma paramam yah parayanam || 15 ||",
+    teluguMeaning: "ఎవడు పరమ తేజము, ఎవడు పరమ తపము, ఎవడు పరమ బ్రహ్మము, ఎవడు పరమ పరాయణమో.",
+    englishMeaning: "He who is the supreme radiance, the supreme austerity, the supreme Brahman, the supreme refuge..."
+  },
+  {
+    id: 17,
+    telugu: "పవిత్రాణాం పవిత్రం యో మంగళానాం చ మంగళమ్ ।\nదైవతం దేవతానాం చ భూతానాం యోఽవ్యయః పితా ॥ 16 ॥",
+    transliteration: "Pavitranam pavitram yo mangalanam cha mangalam |\ndaivatam devatanam cha bhutanam yo'vyayah pita || 16 ||",
+    teluguMeaning: "పవిత్రములలో పవిత్రము, మంగళములలో మంగళము, దేవతలకు దైవతము, భూతములకు అవ్యయ పితవు ఎవడో.",
+    englishMeaning: "The purest of the pure, the most auspicious of the auspicious, the God of gods, the imperishable father of all beings..."
+  },
+  {
+    id: 18,
+    telugu: "యతః సర్వాణి భూతాని భవంత్యాది యుగాగమే ।\nయస్మింశ్చ ప్రళయం యాంతి పునరేవ యుగక్షయే ॥ 17 ॥",
+    transliteration: "Yatah sarvani bhutani bhavantyadi yugagame |\nyasminsh-cha pralayam yanti punar-eva yuga-kshaye || 17 ||",
+    teluguMeaning: "యుగాగమమున సర్వ భూతములు ఎవనియెడ ఉద్భవించుచున్నవో, యుగక్షయమున యెవనియందు పునః ప్రళయము పొందుచున్నవో.",
+    englishMeaning: "From whom all beings arise at the beginning of a yuga, and in whom they dissolve again at the end of a yuga..."
+  },
+  {
+    id: 19,
+    telugu: "తస్య లోక ప్రధానస్య జగన్నాథస్య భూపతే ।\nవిష్ణోర్నామ సహస్రం మే శ్రుణు పాప భయాపహమ్ ॥ 18 ॥",
+    transliteration: "Tasya loka-pradhanasya jagannathasya bhum-pate |\nvishnor-nama sahasram me shrunu papa-bhayapaham || 18 ||",
+    teluguMeaning: "ఆ లోక ప్రధానుని, జగన్నాథుని, భూపతియైన విష్ణువు నామ సహస్రమును పాప భయ నివారణమైన దానిని శ్రవణము చేయుము.",
+    englishMeaning: "Of that Lord of the worlds, the foremost of all, hear the thousand names of Vishnu that remove sins and fears."
+  },
+  {
+    id: 20,
+    telugu: "యాని నామాని గౌణాని విఖ్యాతాని మహాత్మనః ।\nఋషిభిః పరిగీతాని తాని వక్ష్యామి భూతయే ॥ 19 ॥",
+    transliteration: "Yani namani gaunani vikhyatani mahatmanah |\nrishebhih parigitani tani vakshyami bhutaye || 19 ||",
+    teluguMeaning: "మహాత్ముని గుణములను తెలిపే నామములు, విఖ్యాతములగు నామములు, ఋషులచే పరిగీతములగు నామములు, అభీతమునకు (కల్యాణమునకు) వానిని చెప్పెదను.",
+    englishMeaning: "The names of the great-souled Lord that are based on His qualities, that are famous, that have been sung by the sages, I shall recite for your welfare."
+  },
+  {
+    id: 21,
+    telugu: "ఋషిర్నామ్నాం సహస్రస్య వేదవ్యాసో మహామునిః ॥\nఛందోఽనుష్టుప్ తథా దేవో భగవాన్ దేవకీసుతః ॥ 20 ॥\nఅమృతాం శూద్భవో బీజం శక్తిర్దేవకినందనః ।\nత్రిసామా హృదయం తస్య శాంత్యర్థే వినియుజ్యతే ॥ 21 ॥",
+    transliteration: "Rishir-namnam sahasrasya veda-vyaso maha-munih ||\nchando'nushtup tatha devo bhagavan devaki-sutah || 20 ||\nAmritamshud-bhavo bijam shaktir-devaki-nandanah |\ntri-sama hridayam tasya shantyarthe viniyujyate || 21 ||",
+    teluguMeaning: "నామ సహస్రమునకు ఋషి వేదవ్యాస మహాముని. ఛందస్సు అనుష్టుప్. దేవత భగవంతుడైన దేవకీ సుతుడు. బీజము అమృతాంశుద్భవుడు. శక్తి దేవకీనందనుడు. హృదయము త్రిసామ. శాంతి కొరకు ఇది వినియోగింపబడును.",
+    englishMeaning: "The sage of the thousand names is the great muni Vedavyasa. The meter is Anushtup. The deity is the Lord, the son of Devaki. The seed (bija) is 'He who is born of the nectar-rayed moon'. The power (shakti) is 'The joy of Devaki'. The heart is 'The three-fold Sama'. This is employed for peace."
+  },
+  {
+    id: 22,
+    telugu: "విష్ణుం జిష్ణుం మహావిష్ణుం ప్రభవిష్ణుం మహేశ్వరమ్ ॥\nఅనేకరూప దైత్యాంతం నమామి పురుషోత్తమమ్ ॥ 22 ॥",
+    transliteration: "Vishnum jishnum maha-vishnum prabhavishnum maheshvaram ||\naneka-rupa daityantam namami purushottamam || 22 ||",
+    teluguMeaning: "విష్ణువును, జిష్ణువును, మహావిష్ణువును, ప్రభవిష్ణువును, మహేశ్వరుని - అనేక రూపముల దైత్యాంతమును (దైత్యులను నాశనము చేయువానిని), పురుషోత్తముని నమామి.",
+    englishMeaning: "I bow to Vishnu, Jishnu, Maha-vishnu, Prabhavishnu, Maheshvara, the destroyer of multi-formed demons, the Supreme Being Purushottama."
   }
+];
+
+// ============================================================
+// Intro Section 3: Poorva Nyasa (Karanyasa & Anganyasa)
+// ============================================================
+export const nyasaMantras: Shloka[] = [
+  {
+    id: 1,
+    telugu: "అస్య శ్రీ విష్ణోర్దివ్య సహస్రనామ స్తోత్ర మహామంత్రస్య ॥\nశ్రీ వేదవ్యాసో భగవాన్ ఋషిః । అనుష్టుప్ ఛందః ।\nశ్రీమహావిష్ణుః పరమాత్మా శ్రీమన్నారాయణో దేవతా ।\nఅమృతాంశూద్భవో భానురితి బీజమ్ । దేవకీనందనః స్రష్టేతి శక్తిః ।\nఉద్భవః, క్షోభణో దేవ ఇతి పరమోమంత్రః ।\nశంఖభృన్నందకీ చక్రీతి కీలకమ్ ।\nశార్​ఙ్గధన్వా గదాధర ఇత్యస్త్రమ్ ।\nరథాంగపాణి రక్షోభ్య ఇతి నేత్రమ్ ।\nత్రిసామాసామగః సామేతి కవచమ్ ।\nఆనందం పరబ్రహ్మేతి యోనిః ।\nఋతుస్సుదర్శనః కాల ఇతి దిగ్బంధః ॥\nశ్రీవిశ్వరూప ఇతి ధ్యానమ్ ।\nశ్రీ మహావిష్ణు ప్రీత్యర్థే సహస్రనామ జపే పారాయణే వినియోగః ।",
+    transliteration: "Asya sri vishnor-divya sahasranama stotra maha-mantrasya ||\nSri veda-vyaso bhagavan rishih | Anushtup chandah |\nSri-maha-vishnuh paramatma sriman-narayano devata |\nAmritamshud-bhavo bhanur-iti bijam | Devaki-nandanah srashta-iti shaktih |\nUdbhavah, kshobhano deva-iti paramo-mantrah |\nShankha-bhrit nandaki chakri-iti kilakam |\nSharnga-dhanva gada-dhara ity-astram |\nRathanga-pani rakshobhya-iti netram |\nTri-sama-samagah sama-iti kavacham |\nAnandam para-brahmeti yonih |\nRutuh sudarshanah kala-iti dig-bandhah ||\nSri-vishva-rupa-iti dhyamam |\nSri maha-vishnu prityarthe sahasranama jape parayane viniyogah |",
+    teluguMeaning: "ఈ శ్రీ విష్ణు దివ్య సహస్రనామ స్తోత్ర మహామంత్రమునకు - ఋషి శ్రీ వేదవ్యాస భగవాన్. ఛందస్సు అనుష్టుప్. దేవత శ్రీమహావిష్ణువు పరమాత్మ, శ్రీమన్నారాయణుడు. బీజము 'అమృతాంశూద్భవో భానుః'. శక్తి 'దేవకీనందనః స్రష్టా'. పరమ మంత్రము 'ఉద్భవః, క్షోభణో దేవః'. కీలకము 'శంఖభృన్ నందకీ చక్రీ'. అస్త్రము 'శార్​ఙ్గధన్వా గదాధర'. నేత్రము 'రథాంగపాణి రక్షోభ్య'. కవచము 'త్రిసామాసామగః సామ'. యోని 'ఆనందం పరబ్రహ్మ'. దిగ్బంధము 'ఋతుః సుదర్శనః కాల'. ధ్యానము 'శ్రీవిశ్వరూప'. శ్రీ మహావిష్ణు ప్రీత్యర్థము సహస్రనామ జపే పారాయణే వినియోగః.",
+    englishMeaning: "Viniyoga (Application): Rishi - Sage Vedavyasa. Meter - Anushtup. Deity - Maha Vishnu Paramatma, Sriman Narayana. Seed (Bija) - 'Amritamshud-bhavo Bhanuh'. Power (Shakti) - 'Devaki-nandanah Srashta'. Supreme mantra - 'Udbhavah, Kshobhano Devah'. Peg (Kilaka) - 'Shankha-bhrit Nandaki Chakri'. Weapon (Astra) - 'Sharnga-dhanva Gada-dhara'. Eye (Netra) - 'Rathanga-pani Rakshobhyah'. Armor (Kavacha) - 'Tri-sama-samagah Sama'. Source (Yoni) - 'Anandam Para-brahma'. Direction-binding - 'Rutuh Sudarshanah Kalah'. Meditation - 'Sri Vishva-rupa'. Application - For the grace of Sri Maha Vishnu, for chanting the thousand names."
+  },
+  {
+    id: 2,
+    telugu: "కరన్యాసః\nవిశ్వం విష్ణుర్వషట్కార ఇత్యంగుష్ఠాభ్యాం నమః\nఅమృతాం శూద్భవో భానురితి తర్జనీభ్యాం నమః\nబ్రహ్మణ్యో బ్రహ్మకృత్ బ్రహ్మేతి మధ్యమాభ్యాం నమః\nసువర్ణబిందు రక్షోభ్య ఇతి అనామికాభ్యాం నమః\nనిమిషోఽనిమిషః స్రగ్వీతి కనిష్ఠికాభ్యాం నమః\nరథాంగపాణి రక్షోభ్య ఇతి కరతల కరపృష్ఠాభ్యాం నమః",
+    transliteration: "Karanyasah\nVishvam vishnur-vashatkara ity-angushthabhyam namah\nAmritamshud-bhavo bhanur-iti tarjaniabhyam namah\nBrahmanyo brahma-krit brahmeti madhyamabhyam namah\nSuvarna-bindu rakshobhya-iti anamikabhyam namah\nNimisho'nimishah sragveti kanishthikabhyam namah\nRathanga-pani rakshobhya-iti karatala-kara-prishthabhyam namah",
+    teluguMeaning: "కరన్యాసము - విశ్వం విష్ణుర్వషట్కార ఇతి అంగుష్ఠాభ్యాం నమః (బొటన వేళ్ళతో). అమృతాంశూద్భవో భానురితి తర్జనీభ్యాం నమః (చూపు వేళ్ళతో). బ్రహ్మణ్యో బ్రహ్మకృత్ బ్రహ్మేతి మధ్యమాభ్యాం నమః (మధ్యమ వేళ్ళతో). సువర్ణబిందు రక్షోభ్య ఇతి అనామికాభ్యాం నమః (ఉంగరా వేళ్ళతో). నిమిషోఽనిమిషః స్రగ్వీతి కనిష్ఠికాభ్యాం నమః (చిన్న వేళ్ళతో). రథాంగపాణి రక్షోభ్య ఇతి కరతల కరపృష్ఠాభ్యాం నమః (అరచేతులు, చేతి వెనుక భాగముతో).",
+    englishMeaning: "Karanyasa (Hand Purification): Touching the thumbs - 'Vishvam Vishnuh Vashatkara - salutations'. Touching the index fingers - 'Amritamshud-bhavo Bhanuh'. Touching the middle fingers - 'Brahmanyo Brahma-krit Brahma'. Touching the ring fingers - 'Suvarna-bindu Rakshobhyah'. Touching the little fingers - 'Nimisho Animishah Sragvi'. Touching the palms and backs of hands - 'Rathanga-pani Rakshobhyah'."
+  },
+  {
+    id: 3,
+    telugu: "అంగన్యాసః\nసువ్రతః సుముఖః సూక్ష్మ ఇతి జ్ఞానాయ హృదయాయ నమః\nసహస్రమూర్తిః విశ్వాత్మా ఇతి ఐశ్వర్యాయ శిరసే స్వాహా\nసహస్రార్చిః సప్తజిహ్వ ఇతి శక్త్యై శిఖాయై వషట్\nత్రిసామా సామగస్సామేతి బలాయ కవచాయ హుం\nరథాంగపాణి రక్షోభ్య ఇతి నేత్రాభ్యాం వౌషట్\nశాంగధన్వా గదాధర ఇతి వీర్యాయ అస్త్రాయఫట్\nఋతుః సుదర్శనః కాల ఇతి దిగ్భంధః",
+    transliteration: "Anganyasah\nSu-vratah su-mukhah sukshmeti jnanaya hridayaya namah\nSahasra-murtih vishvatmeti aishvaryaya shirase svaha\nSahasrarchih sapta-jihveti shaktyai shikhayai vashat\nTri-sama samagah sameti balaya kavachaya hum\nRathanga-pani rakshobhya-iti netrabhyam vaushat\nSharnga-dhanva gada-dhara-iti viryaya astraya phat\nRutuh sudarshanah kala-iti dig-bandhah",
+    teluguMeaning: "అంగన్యాసము - సువ్రతః సుముఖః సూక్ష్మ ఇతి జ్ఞానాయ హృదయాయ నమః (జ్ఞానము కొరకు హృదయమునకు నమః). సహస్రమూర్తిః విశ్వాత్మా ఇతి ఐశ్వర్యాయ శిరసే స్వాహా (ఐశ్వర్యము కొరకు తలకు స్వాహా). సహస్రార్చిః సప్తజిహ్వ ఇతి శక్త్యై శిఖాయై వషట్ (శక్తి కొరకు శిఖకు వషట్). త్రిసామా సామగస్సామేతి బలాయ కవచాయ హుం (బలము కొరకు, కవచము కొరకు హుం). రథాంగపాణి రక్షోభ్య ఇతి నేత్రాభ్యాం వౌషట్ (నేత్రములకు వౌషట్). శార్​ఙ్గధన్వా గదాధర ఇతి వీర్యాయ అస్త్రాయ ఫట్ (వీర్యము కొరకు, అస్త్రము కొరకు ఫట్). ఋతుః సుదర్శనః కాల ఇతి దిగ్భంధః (దిక్కులను బంధించుట).",
+    englishMeaning: "Anganyasa (Body Purification): For knowledge, to the heart - 'Su-vratah Su-mukhah Sukshmah - namah'. For prosperity, to the head - 'Sahasra-murtih Vishvatma - svaha'. For power, to the crown - 'Sahasrarchih Sapta-jihvah - vashat'. For strength, as armor - 'Tri-sama Samagah Sama - hum'. For the eyes - 'Rathanga-pani Rakshobhyah - vaushat'. For virility, as weapon - 'Sharnga-dhanva Gada-dhara - phat'. For binding the directions - 'Rutuh Sudarshanah Kalah'."
+  }
+];
+
+// ============================================================
+// Intro Section 4: Dhyanam (Meditation - 8 verses)
+// ============================================================
+export const dhyanam: Shloka[] = [
+  {
+    id: 1,
+    telugu: "క్షీరోధన్వత్ప్రదేశే శుచిమణి-విలస-త్సైకతే-మౌక్తికానాం\nమాలా-కౢప్తాసనస్థః స్ఫటిక-మణినిభై-ర్మౌక్తికై-ర్మండితాంగః ।\nశుభ్రై-రభ్రై-రదభ్రై-రుపరివిరచితై-ర్ముక్త పీయూష వర్షైః\nఆనందీ నః పునీయా-దరినలినగదా శంఖపాణి-ర్ముకుందః ॥ 1 ॥",
+    transliteration: "Kshirodanvat-pradeshe shuchi-mani-vilasa-tsaikate-mauktikanam |\nmala-ku-ptasana-sthah sphatika-maninibhair-mauktikair-manditangah ||\nshubhrair-abhrair-adabhrair-upari-virachitair-mukta-piyusha-varshaih |\nanandi nah puniyadarinalinagada shankha-panir-mukundah || 1 ||",
+    teluguMeaning: "క్షీరోద సముద్రమున శుచిమణులు పరిచిన మరలలో ముత్యముల సంద్రమున, మాలాకుప్త ఆసనమున స్ఫటిక మణి సదృశ ముత్యములచే అంగములు మండితమై, శుభ్ర మేఘములచే విరచిత ముక్త పీయూష వర్షములతో, అరిణాల గదా శంఖ పాణియైన ముకుందుడు మమ్మును పునీతులను చేయును గాక.",
+    englishMeaning: "In the region of the milky ocean, on a seat of pearls shining with pure gems, adorned with limbs like crystal and pearls, with white clouds pouring showers of nectar, holding a lotus, mace, and conch - may Mukunda purify us."
+  },
+  {
+    id: 2,
+    telugu: "భూః పాదౌ యస్య నాభిర్వియ-దసుర నిలశ్చంద్ర సూర్యౌ చ నేత్రే\nకర్ణావాశాః శిరోద్యౌర్ముఖమపి దహనో యస్య వాస్తేయమబ్ధిః ।\nఅంతఃస్థం యస్య విశ్వం సుర నరఖగగోభోగి గంధర్వదైత్యైః\nచిత్రం రం రమ్యతే తం త్రిభువన వపుశం విష్ణుమీశం నమామి ॥ 2 ॥",
+    transliteration: "Bhuh padou yasya nabhir-viyad-asura-nilash-chandra suryau cha netre |\nkarnavashah shirodyaur-mukham-api daho yasya vashteyamabdhih ||\nantah-stham yasya vishvam sura-nara-khaga-gobhogi-gandharva-daityaih |\nchitram ram ramyate tam tri-bhuvana-vapusham vishnum-isham namami || 2 ||",
+    teluguMeaning: "ఎవని పాదములు భూః, నాభి వియత్ (ఆకాశము), నేత్రములు చంద్ర సూర్యులు, కర్ణములు ఆశాలు (దిక్కులు), శిరస్సు ద్యౌః, ముఖము అగ్ని, వాయువు వాసించుచున్న సముద్రము - ఎవని అంతరాత్మగా సుర, నర, ఖగ, గో, భోగి, గంధర్వ, దైత్యులతో కూడిన విశ్వము ఉన్నదో, ఆ త్రిభువన వపుష్స్వరూపుడైన విష్ణ్వీశుని నమామి.",
+    englishMeaning: "Whose feet are the earth, navel the sky, eyes the moon and sun, ears the directions, head the heaven, mouth the fire, the ocean His abode; in whom this universe dwells with gods, men, birds, cows, serpents, gandharvas, and daityas - I bow to that Lord Vishnu of cosmic form."
+  },
+  {
+    id: 3,
+    telugu: "ఓం నమో భగవతే వాసుదేవాయ !",
+    transliteration: "Om namo bhagavate vasudevaya !",
+    teluguMeaning: "ఓం భగవంతుడైన వాసుదేవునకు నమస్కారము.",
+    englishMeaning: "Om, salutations to the Lord Vasudeva."
+  },
+  {
+    id: 4,
+    telugu: "శాంతాకారం భుజగశయనం పద్మనాభం సురేశం\nవిశ్వాధారం గగనసదృశం మేఘవర్ణం శుభాంగమ్ ।\nలక్ష్మీకాంతం కమలనయనం యోగిహృర్ధ్యానగమ్యం\nవందే విష్ణుం భవభయహరం సర్వలోకైకనాథమ్ ॥ 3 ॥",
+    transliteration: "Shantakaram bhujaga-shayanam padma-nabham suresham |\nvishvadharan gagana-sadrusham meghavarnam shubhangam ||\nlakshmi-kantam kamala-nayanam yogi-hrid-dhyana-gamyam |\nvande vishnum bhava-bhaya-haram sarva-lokaika-natham || 3 ||",
+    teluguMeaning: "శాంతి స్వరూపుడై, భుజగము (సర్పము) పై శయనించినవాడై, పద్మనాభుడై, సురేశుడై, విశ్వాధారుడై, గగన సదృశుడై, మేఘవర్ణుడై, శుభాంగుడై, లక్ష్మీకాంతుడై, కమల నయనుడై, యోగి హృదయ ధ్యానమునకు గమ్యుడై, భవ భయమును హరించువాడై, సర్వ లోకైకనాథుడైన విష్ణువును వందనము చేయుచున్నాను.",
+    englishMeaning: "I bow to Lord Vishnu who is of peaceful form, reclining on the serpent, the lotus-navelled, Lord of gods, the support of the universe, like the sky, cloud-colored, of auspicious form, the consort of Lakshmi, lotus-eyed, attainable by yogis' meditation, the remover of the fear of samsara, the one Lord of all worlds."
+  },
+  {
+    id: 5,
+    telugu: "మేఘశ్యామం పీతకౌశేయవాసం\nశ్రీవత్సాకం కౌస్తుభోద్భాసితాంగమ్ ।\nపుణ్యోపేతం పుండరీకాయతాక్షం\nవిష్ణుం వందే సర్వలోకైకనాథమ్ ॥ 4 ॥",
+    transliteration: "Megha-shyamam pita-kausheya-vasam |\nshree-vatsakam kaustubhod-bhasitangam |\npunyopetam pundarika-ayata-aksham |\nvishnum vande sarva-lokaika-natham || 4 ||",
+    teluguMeaning: "మేఘ శ్యామలుడై, పీతకౌశేయ వస్త్రములు ధరించినవాడై, శ్రీవత్సాంకితుడై, కౌస్తుభమణిచే ఉద్భాసితాంగుడై, పుణ్యోపేతుడై, పుండరీకాయతాక్షుడైన విష్ణువును సర్వలోకైకనాథుని వందనము చేయుచున్నాను.",
+    englishMeaning: "I bow to Lord Vishnu, dark-cloud-hued, wearing yellow silk, marked with Srivatsa, adorned by the Kaustubha gem, endowed with all merits, with wide lotus-like eyes, the one Lord of all worlds."
+  },
+  {
+    id: 6,
+    telugu: "నమః సమస్త భూతానాం ఆది భూతాయ భూభృతే ।\nఅనేకరూప రూపాయ విష్ణవే ప్రభవిష్ణవే ॥ 5॥",
+    transliteration: "Namah samasta bhutanam adi-bhutaya bhubhrite |\naneka-rupa rupaya vishnave prabhavishnave || 5 ||",
+    teluguMeaning: "సమస్త భూతములకు నమః, ఆది భూతాయ, భూభృతే (భూమిని ధరించినవాడా), అనేక రూపముల రూపుడైన విష్ణవే, ప్రభవిష్ణవే నమః.",
+    englishMeaning: "Salutations to the Lord of all beings, the primal being, the bearer of the earth, of infinite forms, the all-pervading Vishnu, the supreme Lord."
+  },
+  {
+    id: 7,
+    telugu: "సశంఖచక్రం సకిరీటకుండలం\nసపీతవస్త్రం సరసీరుహేక్షణమ్ ।\nసహార వక్షఃస్థల శోభి కౌస్తుభం\nనమామి విష్ణుం శిరసా చతుర్భుజమ్ । 6॥",
+    transliteration: "Sa-shankha-chakram sa-kirita-kundalam\nsa-pita-vastram sarasi-ruhekshanam |\nsahara-vakshahsthala-shobhi-kaustubham\nnamami vishnum shirasa chaturbhujam || 6 ||",
+    teluguMeaning: "శంఖ చక్రములు, కిరీట కుండలములు, పీత వస్త్రము, సరసీరుహేక్షణుడైన (తామర కన్నులు గలవాడైన), హార వక్షఃస్థల శోభి కౌస్తుభము గలవాడైన చతుర్భుజుడైన విష్ణువును శిరస్సుతో నమామి.",
+    englishMeaning: "I bow with my head to the four-armed Lord Vishnu who holds the conch and discus, who wears a crown and earrings, yellow garments, lotus eyes, with the Kaustubha gem adorning His chest along with garlands."
+  },
+  {
+    id: 8,
+    telugu: "ఛాయాయాం పారిజాతస్య హేమసింహాసనోపరి\nఆసీనమంబుదశ్యామమాయతాక్షమలంకృతమ్ ॥ 7 ॥\nచంద్రాననం చతుర్బాహుం శ్రీవత్సాంకిత వక్షసం\nరుక్మిణీ సత్యభామాభ్యాం సహితం కృష్ణమాశ్రయే ॥ 8 ॥",
+    transliteration: "Chayayam parijatasya hema-simhasanopari |\nasinam-ambuda-shyamam-ayata-aksham-alankritam || 7 ||\nChandrananam chatur-bahum shree-vatsankita-vakshasam |\nrukmini-satyabhamabhyam sahitam krishnam-ashraye || 8 ||",
+    teluguMeaning: "పారిజాత ఛాయలో, సువర్ణ సింహాసనముపై, మేఘ శ్యామలుడై ఆయతాక్షుడై అలంకృతుడై ఆసీనుడైన, చంద్రాననుడైన, చతుర్బాహువులు గలవాడైన, శ్రీవత్సాంకిత వక్షస్సు గలవాడైన, రుక్మిణీ సత్యభామలతో సహితుడైన కృష్ణుని ఆశ్రయించుచున్నాను.",
+    englishMeaning: "Under the Parijata tree, on a golden throne, seated is the cloud-dark Lord with elongated eyes, beautifully adorned. With a moon-like face, four arms, chest marked with Srivatsa, accompanied by Rukmini and Satyabhama - I take refuge in Lord Krishna."
+  }
+];
+
+// ============================================================
+// Intro Section 5: Pancha Puja (Five Offerings)
+// ============================================================
+export const panchaPuja: Shloka[] = [
+  {
+    id: 1,
+    telugu: "పంచపూజ\nలం - పృథివ్యాత్మనే గంధం సమర్పయామి\nహం - ఆకాశాత్మనే పుష్పైః పూజయామి\nయం - వాయ్వాత్మనే ధూపమాఘ్రాపయామి\nరం - అగ్న్యాత్మనే దీపం దర్శయామి\nవం - అమృతాత్మనే నైవేద్యం నివేదయామి\nసం - సర్వాత్మనే సర్వోపచార పూజా నమస్కారాన్ సమర్పయామి",
+    transliteration: "Pancha Puja\nLam - prithivyatmane gandham samarpayami\nHam - akashatmane pushpaih pujayami\nYam - vayvatmane dhupam-aghapayami\nRam - agnyatmane dipam darshayami\nVam - amritatmane naivedyam nivedayami\nSam - sarvatmane sarvopachara puja namaskaran samarpayami",
+    teluguMeaning: "పంచపూజ - లం పృథివీ స్వరూపునకు గంధము సమర్పించుచున్నాను. హం ఆకాశ స్వరూపునకు పుష్పములతో పూజించుచున్నాను. యం వాయు స్వరూపునకు ధూపము పీల్పించుచున్నాను. రం అగ్ని స్వరూపునకు దీపము చూపుచున్నాను. వం అమృత స్వరూపునకు నైవేద్యము నివేదించుచున్నాను. సం సర్వాత్మ స్వరూపునకు సర్వోపచార పూజా నమస్కారములు సమర్పించుచున్నాను.",
+    englishMeaning: "Pancha Puja (Five Offerings): LAM (Earth) - I offer sandalwood to the earth-principled Lord. HAM (Space) - I worship the space-principled Lord with flowers. YAM (Wind) - I offer incense to the wind-principled Lord. RAM (Fire) - I show the lamp to the fire-principled Lord. VAM (Water/Nectar) - I offer food to the nectar-principled Lord. SAM (All) - I offer all forms of worship and salutations to the all-pervading Lord."
+  }
+];
+
+// Backward compatibility: combine all intro sections
+export const dhyanaShlokas: Shloka[] = [
+  ...invocations,
+  ...poorvaPeethika,
+  ...nyasaMantras,
+  ...dhyanam,
+  ...panchaPuja
 ];
 
 // Main Stotram - 107 Shlokas containing all 1000 names
@@ -930,63 +1154,240 @@ export const mainStotram: Shloka[] = [
   }
 ];
 
-// Phalashruti (Benefits) - Selected key verses
+// ============================================================
+// Phalashruti (Benefits of Chanting - 33 Verses from Uttara Peethika)
+// ============================================================
 export const phalashruti: Shloka[] = [
   {
     id: 1,
-    telugu: "ఇతీదం కీర్తనీయస్య కేశవస్య మహాత్మనః ।\nనామ్నాం సహస్రం దివ్యానామశేషేణ ప్రకీర్తితం।",
-    transliteration: "Iti idam kirtaniyasya keshavasya mahatmanah |\nnamnam sahasram divyanam-asheshena prakirtitam ||",
+    telugu: "ఇతీదం కీర్తనీయస్య కేశవస్య మహాత్మనః ।\nనామ్నాం సహస్రం దివ్యానామశేషేణ ప్రకీర్తితం। ॥ 1 ॥",
+    transliteration: "Iti idam kirtaniyasya keshavasya mahatmanah |\nnamnam sahasram divyanam-asheshena prakirtitam || 1 ||",
     teluguMeaning: "ఈ కీర్తించదగిన మహాత్ముడైన కేశవుని దివ్య నామములైన సహస్రము నిండుగ కీర్తించబడినవి.",
     englishMeaning: "Thus the thousand divine names of the glorious Lord Keshava have been sung in full."
   },
   {
     id: 2,
-    telugu: "య ఇదం శృణుయాన్నిత్యం యశ్చాపి పరికీర్తయేత్।\nనాశుభం ప్రాప్నుయాత్ కించిత్సోఽముత్రేహ చ మానవః ॥",
-    transliteration: "Ya idam shrunuyan-nityam yash-chapi parikirtayet |\nnashubham prapnuyat kinchit so'mutra-eha cha manavah ||",
+    telugu: "య ఇదం శృణుయాన్నిత్యం యశ్చాపి పరికీర్తయేత్॥\nనాశుభం ప్రాప్నుయాత్ కించిత్సోఽముత్రేహ చ మానవః ॥ 2 ॥",
+    transliteration: "Ya idam shrunuyan-nityam yash-chapi parikirtayet ||\nnashubham prapnuyat kinchit so'mutra-eha cha manavah || 2 ||",
     teluguMeaning: "ఎవడు దీనిని నిత్యము శృణువునో, ఎవడు కీర్తించునో, వాడు ఇహము పరము లందు క్రముచ అశుభము పొందడు.",
     englishMeaning: "One who hears this daily or sings it, neither here nor hereafter will that person attain any inauspiciousness."
   },
   {
     id: 3,
-    telugu: "వేదాంతగో బ్రాహ్మణః స్యాత్ క్షత్రియో విజయీ భవేత్ ।\nవైశ్యో ధనసమృద్ధః స్యాత్ శూద్రః సుఖమవాప్నుయాత్ ॥",
-    transliteration: "Vedantago brahmanah syat kshatriyo vijayi bhavet |\nvaishyo dhana-samriddhah syat shudrah sukham-avapnuyat ||",
+    telugu: "వేదాంతగో బ్రాహ్మణః స్యాత్ క్షత్రియో విజయీ భవేత్ ।\nవైశ్యో ధనసమృద్ధః స్యాత్ శూద్రః సుఖమవాప్నుయాత్ ॥ 3 ॥",
+    transliteration: "Vedantago brahmanah syat kshatriyo vijayi bhavet |\nvaishyo dhana-samriddhah syat shudrah sukham-avapnuyat || 3 ||",
     teluguMeaning: "బ్రాహ్మణుడు వేదాంత గతుడగును, క్షత్రియుడు విజయుడగును, వైశ్యుడు ధన సమృద్ధుడగును, శూద్రుడు సుఖమును పొందును.",
     englishMeaning: "A Brahmin becomes versed in Vedanta, a Kshatriya becomes victorious, a Vaishya becomes prosperous, and a Shudra attains happiness."
   },
   {
     id: 4,
-    telugu: "భక్తిమాన్ యః సదోత్థాయ శుచిస్తద్గతమానసః ।\nసహస్రం వాసుదేవస్య నామ్నామేతత్ ప్రకీర్తయేత్ ॥",
-    transliteration: "Bhaktiman yah sad-uttaya suchis-tad-gata-manasah |\nsahasram vasudevasya namnametat prakirtayet ||",
+    telugu: "ధర్మార్థీ ప్రాప్నుయాద్ధర్మమర్థార్థీ చార్థమాప్నుయాత్ ।\nకామానవాప్నుయాత్ కామీ ప్రజార్థీ చాప్నుయాత్ప్రజామ్ ॥ 4 ॥",
+    transliteration: "Dharmarthi prapnuyad-dharmamartharthi charthamapnuyat |\nkamanavapnuyat kami prajarthi chapnuyatprajam || 4 ||",
+    teluguMeaning: "ధర్మార్థి ధర్మమును పొందును, అర్థార్థి అర్థమును పొందును, కామి కామములను పొందును, ప్రజార్థి ప్రజలను పొందును.",
+    englishMeaning: "The seeker of dharma attains dharma, the seeker of wealth attains wealth, the seeker of desires attains desires, and the seeker of progeny attains progeny."
+  },
+  {
+    id: 5,
+    telugu: "భక్తిమాన్ యః సదోత్థాయ శుచిస్తద్గతమానసః ।\nసహస్రం వాసుదేవస్య నామ్నామేతత్ ప్రకీర్తయేత్ ॥ 5 ॥",
+    transliteration: "Bhaktiman yah sad-uttaya suchis-tad-gata-manasah |\nsahasram vasudevasya namnametat prakirtayet || 5 ||",
     teluguMeaning: "ఎవడు భక్తివంతుడై సదా లేచి, శుచియై, మనస్సు వాసుదేవునందు లగించి, వాసుదేవుని నామములైన సహస్రమును కీర్తించునో",
     englishMeaning: "One who is devoted, who rises early, who is pure, whose mind is fixed on Him, and who chants these thousand names of Vasudeva..."
   },
   {
-    id: 5,
-    telugu: "యశః ప్రాప్నోతి విపులం యాతిప్రాధాన్యమేవ చ ।\nఅచలాం శ్రియమాప్నోతి శ్రేయః ప్రాప్నోత్యనుత్తమం।",
-    transliteration: "Yashah prapnoti vipulam yati pradhanyameva cha |\nachalam shriyam-apnoti shreyah prapnoty-anuttamam ||",
+    id: 6,
+    telugu: "యశః ప్రాప్నోతి విపులం యాతిప్రాధాన్యమేవ చ ।\nఅచలాం శ్రియమాప్నోతి శ్రేయః ప్రాప్నోత్యనుత్తమం। ॥ 6 ॥",
+    transliteration: "Yashah prapnoti vipulam yati pradhanyameva cha |\nachalam shriyam-apnoti shreyah prapnoty-anuttamam || 6 ||",
     teluguMeaning: "వాడు విపులమైన కీర్తిని పొందును, ప్రాధాన్యమును పొందును, అచలమైన శ్రీయుజ్జును, అనుత్తమ శ్రేయమును పొందును.",
     englishMeaning: "...attains great fame, achieves prominence, obtains unfailing prosperity, and attains the supreme good."
   },
   {
-    id: 6,
-    telugu: "న భయం క్వచిదాప్నోతి వీర్యం తేజశ్చ విందతి ।\nభవత్యరోగో ద్యుతిమాన్ బలరూప గుణాన్వితః ॥",
-    transliteration: "Na bhayam kvachid-apnoti viryam tejas-cha vindati |\nbhavaty-arogo dyutiman bala-rupa-gun-anvitah ||",
+    id: 7,
+    telugu: "న భయం క్వచిదాప్నోతి వీర్యం తేజశ్చ విందతి ।\nభవత్యరోగో ద్యుతిమాన్ బలరూప గుణాన్వితః ॥ 7 ॥",
+    transliteration: "Na bhayam kvachid-apnoti viryam tejas-cha vindati |\nbhavaty-arogo dyutiman bala-rupa-gun-anvitah || 7 ||",
     teluguMeaning: "వాడు ఎచ్చటను భయము పొందడు, వీర్యము తేజములను పొందును, అరోగుడగును, ద్యుతిమంతుడగును, బలరూప గుణములు గలవాడగును.",
     englishMeaning: "One will never fear anywhere, gains valor and splendor, becomes disease-free, radiant, and endowed with strength, beauty, and good qualities."
   },
   {
-    id: 7,
-    telugu: "రోగార్తో ముచ్యతే రోగాద్బద్ధో ముచ్యేత బంధనాత్ ।\nభయాన్ముచ్యేత భీతస్తు ముచ్యేతాపన్న ఆపదః ॥",
-    transliteration: "Rogarto muchyate rogad-baddho muchyeta bandhanat |\nbhayan-muchyeta bhitastu muchyetapanna aapadah ||",
+    id: 8,
+    telugu: "రోగార్తో ముచ్యతే రోగాద్బద్ధో ముచ్యేత బంధనాత్ ।\nభయాన్ముచ్యేత భీతస్తు ముచ్యేతాపన్న ఆపదః ॥ 8 ॥",
+    transliteration: "Rogarto muchyate rogad-baddho muchyeta bandhanat |\nbhayan-muchyeta bhitastu muchyetapanna aapadah || 8 ||",
     teluguMeaning: "రోగార్తుడు రోగమునుండి, బద్ధుడు బంధనమునుండి, భీతుడు భయమునుండి, ఆపదుడు ఆపదునుండి విముక్తి పొందును.",
     englishMeaning: "The sick are freed from disease, the bound from bonds, the frightened from fear, and the distressed from calamity."
   },
   {
-    id: 8,
-    telugu: "వాసుదేవాశ్రయో మర్త్యో వాసుదేవపరాయణః ।\nసర్వపాపవిశుద్ధాత్మా యాతి బ్రహ్మ సనాతనం।",
-    transliteration: "Vasudevaashrayo martyo vasudeva-parayanah |\nsarva-papa-vishuddhatma yati brahma sanatanam ||",
+    id: 9,
+    telugu: "దుర్గాణ్యతితరత్యాశు పురుషః పురుషోత్తమమ్ ।\nస్తువన్నామసహస్రేణ నిత్యం భక్తిసమన్వితః ॥ 9 ॥",
+    transliteration: "Durgany-atitaratyashu purushah purushottamam |\nstuvan-nama-sahasrena nityam bhakti-samanvitah || 9 ||",
+    teluguMeaning: "పురుషోత్తముని నామ సహస్రముతో నిత్యము భక్తితో స్తుతించు పురుషుడు దుర్గములను త్వరతగా తరించును.",
+    englishMeaning: "One who daily praises Purushottama with the thousand names, with devotion, quickly crosses over all difficulties."
+  },
+  {
+    id: 10,
+    telugu: "వాసుదేవాశ్రయో మర్త్యో వాసుదేవపరాయణః ।\nసర్వపాపవిశుద్ధాత్మా యాతి బ్రహ్మ సనాతనం। ॥ 10 ॥",
+    transliteration: "Vasudevaashrayo martyo vasudeva-parayanah |\nsarva-papa-vishuddhatma yati brahma sanatanam || 10 ||",
     teluguMeaning: "వాసుదేవుని ఆశ్రయించిన మర్త్యుడు, వాసుదేవ పరాయణుడు, సర్వ పాపములనుండి విశుద్ధాత్మ, సనాతన బ్రహ్మను పొందును.",
     englishMeaning: "A mortal who takes refuge in Vasudeva, who is devoted to Vasudeva, becomes purified of all sins and attains the eternal Brahman."
+  },
+  {
+    id: 11,
+    telugu: "న వాసుదేవ భక్తానామశుభం విద్యతే క్వచిత్ ।\nజన్మమృత్యుజరావ్యాధిభయం నైవోపజాయతే ॥ 11 ॥",
+    transliteration: "Na vasudeva bhaktanam-ashubham vidyate kvachit |\njanma-mrityu-jara-vyadhi-bhayam naivopajayate || 11 ||",
+    teluguMeaning: "వాసుదేవ భక్తులకు ఎచ్చటను అశుభము లేదు. జన్మ మృత్యు జరా వ్యాధుల భయము పుట్టుక రాదు.",
+    englishMeaning: "For the devotees of Vasudeva, there is no inauspiciousness anywhere. The fear of birth, death, old age, and disease does not arise."
+  },
+  {
+    id: 12,
+    telugu: "ఇమం స్తవమధీయానః శ్రద్ధాభక్తిసమన్వితః ।\nయుజ్యేతాత్మ సుఖక్షాంతి శ్రీధృతి స్మృతి కీర్తిభిః ॥ 12 ॥",
+    transliteration: "Imam stavam-adhiyanah shraddha-bhakti-samanvitah |\nyujyeta-atma sukha-kshanti shri-dhriti smriti kirtibhih || 12 ||",
+    teluguMeaning: "ఈ స్తవమును శ్రద్ధా భక్తులతో పఠించువాడు ఆత్మ సుఖము, క్షాంతి, శ్రీ, ధృతి, స్మృతి, కీర్తులతో యుక్తుడగును.",
+    englishMeaning: "One who reads this hymn with faith and devotion becomes endowed with soul-bliss, patience, prosperity, steadiness, memory, and fame."
+  },
+  {
+    id: 13,
+    telugu: "న క్రోధో న చ మాత్సర్యం న లోభో నాశుభామతిః ।\nభవంతి కృతపుణ్యానాం భక్తానాం పురుషోత్తమే ॥ 13 ॥",
+    transliteration: "Na krodho na cha matsaryam na lobho nashubha-matih |\nbhavanti krita-punyanam bhaktanam purushottame || 13 ||",
+    teluguMeaning: "కృతపుణ్యులైన పురుషోత్తమ భక్తులకు క్రోధము, మాత్సర్యము, లోభము, అశుభ మతి పుట్టవు.",
+    englishMeaning: "Neither anger, nor jealousy, nor greed, nor evil thoughts arise in the devotees of Purushottama who have earned merit."
+  },
+  {
+    id: 14,
+    telugu: "ద్యౌః స-చంద్రార్క నక్షత్రా ఖం దిశో భూర్మహోదధిః ।\nవాసుదేవస్య వీర్యేణ విధృతాని మహాత్మనః ॥ 14 ॥",
+    transliteration: "Dyauh sa-chandrarka-nakshatra kham disho bhur-mahodadhih |\nvasudevasya viryena vidhritani mahatmanah || 14 ||",
+    teluguMeaning: "సచంద్రార్క నక్షత్రములైన ద్యౌః, ఖము (ఆకాశము), దిశో (దిక్కులు), భూః, మహోదధిః (మహా సముద్రము) మహాత్ముడైన వాసుదేవుని వీర్యముచే ధరించబడినవి.",
+    englishMeaning: "The heaven with its moon, sun and stars, the sky, the directions, the earth, and the great ocean are all supported by the power of the great-souled Vasudeva."
+  },
+  {
+    id: 15,
+    telugu: "ససురాసురగంధర్వం సయక్షోరగరాక్షసమ్ ।\nజగద్వశే వర్తతేదం కృష్ణస్య స చరాచరం। ॥ 15 ॥",
+    transliteration: "Sa-sura-asura-gandharvam sa-yaksha-uraga-rakshasam |\njagad-vashe vartatedam krishnasya sa chara-acharam || 15 ||",
+    teluguMeaning: "సుర, అసుర, గంధర్వ, యక్ష, ఉరగ, రాక్షస సహితమైన ఈ చరాచర జగత్తు కృష్ణుని వశమున వర్తించుచున్నది.",
+    englishMeaning: "This entire universe, with gods, demons, gandharvas, yakshas, serpents, and rakshasas, both moving and non-moving, is under the control of Krishna."
+  },
+  {
+    id: 16,
+    telugu: "ఇంద్రియాణి మనోబుద్ధిః సత్త్వం తేజో బలం ధృతిః ।\nవాసుదేవాత్మకాన్యాహుః, క్షేత్రం క్షేత్రజ్ఞ ఏవ చ ॥ 16 ॥",
+    transliteration: "Indriyani mano-buddhih sattvam tejo balam dhritih |\nvasudevatmakanyahuh kshetram kshetrajna eva cha || 16 ||",
+    teluguMeaning: "ఇంద్రియములు, మనస్సు, బుద్ధి, సత్త్వము, తేజము, బలము, ధృతి - ఇవన్నీ వాసుదేవాత్మకములని చెప్పుదురు. క్షేత్రము, క్షేత్రజ్ఞుడు కూడా.",
+    englishMeaning: "The senses, mind, intellect, purity, radiance, strength, and steadfastness are all constituted of Vasudeva. So too are the field and the knower of the field."
+  },
+  {
+    id: 17,
+    telugu: "సర్వాగమానామాచారః ప్రథమం పరికల్పతే ।\nఆచారప్రభవో ధర్మో ధర్మస్య ప్రభురచ్యుతః ॥ 17 ॥",
+    transliteration: "Sarvagamanam-acharah prathamam parikalpate |\nachara-prabhavo dharmo dharmasya prabhur-achyutah || 17 ||",
+    teluguMeaning: "సర్వ ఆగమములలో ఆచారము మొదట కల్పించబడును. ఆచారమునుండి పుట్టినది ధర్మము. ధర్మమునకు ప్రభువు అచ్యుతుడు.",
+    englishMeaning: "In all scriptures, conduct (achara) is established first. From right conduct arises dharma. The Lord of dharma is Achyuta (Vishnu)."
+  },
+  {
+    id: 18,
+    telugu: "ఋషయః పితరో దేవా మహాభూతాని ధాతవః ।\nజంగమాజంగమం చేదం జగన్నారాయణోద్భవమ్ ॥ 18 ॥",
+    transliteration: "Rishayah pitaro deva maha-bhudhani dhatavah |\njangam-ajangamam chedam jagat-narayanodbhavam || 18 ||",
+    teluguMeaning: "ఋషులు, పితరులు, దేవతలు, మహాభూతములు, ధాతవః - ఈ చరాచర జగత్తు అంతయు నారాయణునియెడ ఉద్భవించినది.",
+    englishMeaning: "The sages, the forefathers, the gods, the great elements - all this moving and non-moving universe has arisen from Narayana."
+  },
+  {
+    id: 19,
+    telugu: "యోగోజ్ఞానం తథా సాంఖ్యం విద్యాః శిల్పాదికర్మ చ ।\nవేదాః శాస్త్రాణి విజ్ఞానమేతత్సర్వం జనార్దనాత్ ॥ 19 ॥",
+    transliteration: "Yogo-jnanam tatha sankhyam vidyah shilpadi-karma cha |\nvedah shastrani vijnanam-etat sarvam janardanat || 19 ||",
+    teluguMeaning: "యోగము, జ్ఞానము, సాంఖ్యము, విద్యలు, శిల్పాది కర్మలు, వేదములు, శాస్త్రములు, విజ్ఞానము - ఇవన్నీ జనార్దనునియెడనుండి వచ్చినవి.",
+    englishMeaning: "Yoga, knowledge, Sankhya, the sciences, arts and crafts, the Vedas, the scriptures, and wisdom - all these come from Janardana."
+  },
+  {
+    id: 20,
+    telugu: "ఏకో విష్ణుర్మహద్భూతం పృథగ్భూతాన్యనేకశః ।\nత్రీంలోకాన్వ్యాప్య భూతాత్మా భుంక్తే విశ్వభుగవ్యయః ॥ 20 ॥",
+    transliteration: "Eko vishnur-mahad-bhutam prithag-bhutany-anekashah |\ntrimlokan-vyapya bhutatma bhunkte vishva-bhug-avyayah || 20 ||",
+    teluguMeaning: "విష్ణువు ఒక్కడే మహద్భూతము. అనేకశః పృథగ్భూతములైనను, మూడు లోకములను వ్యాపించి, భూతాత్మయై, అవ్యయుడై విశ్వమును భుంక్తుచున్నాడు.",
+    englishMeaning: "Vishnu alone is the great being. Though the beings are many, He, as the inner Self of all, pervading the three worlds, enjoys the universe, imperishable."
+  },
+  {
+    id: 21,
+    telugu: "ఇమం స్తవం భగవతో విష్ణోర్వ్యాసేన కీర్తితమ్ ।\nపఠేద్య ఇచ్చేత్పురుషః శ్రేయః ప్రాప్తుం సుఖాని చ ॥ 21 ॥",
+    transliteration: "Imam stavam bhagavato vishnor-vyasena kirtitam |\npathed-ya ichchet-purushah shreyah praptum sukhani cha || 21 ||",
+    teluguMeaning: "భగవంతుడైన విష్ణువు స్తవమును వ్యాసునిచే కీర్తించబడినది. శ్రేయమును, సుఖములను పొందుటకు పురుషుడు పఠించవలయును.",
+    englishMeaning: "This hymn of the Lord Vishnu was sung by Vyasa. One who wishes to attain auspiciousness and happiness should recite it."
+  },
+  {
+    id: 22,
+    telugu: "విశ్వేశ్వరమజం దేవం జగతః ప్రభుమవ్యయం।\nభజంతి యే పుష్కరాక్షం న తే యాంతి పరాభవమ్ ॥ 22 ॥",
+    transliteration: "Vishveshvaram-ajam devam jagatah prabhum-avyayam |\nbajanti ye pushkara-aksham na te yanti parabhavam || 22 ||",
+    teluguMeaning: "విశ్వేశ్వరుడైన, అజుడైన, అవ్యయ ప్రభువైన పుష్కరాక్షుని ఎవరు భజించుదురో, వారు పరాభవమును పొందరు. శ్రీ సర్వప్రహరణాయుధ ఓం నమ ఇతి.",
+    englishMeaning: "Those who worship Pushkara-aksha (the lotus-eyed Lord), the universal Lord, the unborn, the imperishable Master of the universe, never face defeat. Sri Sarva-praharana-ayudha Om nama iti."
+  },
+  {
+    id: 23,
+    telugu: "అర్జున ఉవాచ\nపద్మపత్ర విశాలాక్ష పద్మనాభ సురోత్తమ ।\nభక్తానా మనురక్తానాం త్రాతా భవ జనార్దన ॥ 23 ॥",
+    transliteration: "Arjuna Uvacha\nPadma-patra vishalaksha padma-nabha surottama |\nbhaktanam-anuraktanam trata bhava janardana || 23 ||",
+    teluguMeaning: "అర్జున ఉవాచ - పద్మపత్ర విశాలాక్షా! పద్మనాభా! సురోత్తమా! అనురక్త భక్తులకు త్రాతవు గాక, జనార్దనా!",
+    englishMeaning: "Arjuna said: O lotus-leaf-eyed Lord, O Padmanabha, O best of gods, O Janardana, be the protector of Your loving devotees."
+  },
+  {
+    id: 24,
+    telugu: "శ్రీభగవానువాచ\nయో మాం నామసహస్రేణ స్తోతుమిచ్ఛతి పాండవ ।\nసోఽహమేకేన శ్లోకేన స్తుత ఏవ న సంశయః ॥ 24 ॥",
+    transliteration: "Sri Bhagavan Uvacha\nYo mam nama-sahasrena stotum-ichchati pandava |\nso'ham-ekena shlokena stuta eva na samshayah || 24 ||",
+    teluguMeaning: "శ్రీ భగవానువాచ - పాండవ! ఎవడు నన్ను నామ సహస్రముతో స్తుతించ నిచ్చుచున్నాడో, అతడు ఒక్క శ్లోకముతోనే స్తుతించినవాడగును - సంశయము లేదు.",
+    englishMeaning: "The Lord said: O Pandava, whoever wishes to praise Me with the thousand names, he has praised Me with even one shloka - there is no doubt. Sri Stuta eva na samshaya Om nama iti."
+  },
+  {
+    id: 25,
+    telugu: "వ్యాస ఉవాచ\nవాసనాద్వాసుదేవస్య వాసితం భువనత్రయమ్ ।\nసర్వభూతనివాసోఽసి వాసుదేవ నమోఽస్తు తే ॥ 25 ॥",
+    transliteration: "Vyasa Uvacha\nVasanad-vasudevasya vasitam bhuvana-trayam |\nsarva-bhuta-nivaso'si vasudeva namo'stu te || 25 ||",
+    teluguMeaning: "వ్యాస ఉవాచ - వాసుదేవుని వాసనచే భువనత్రయము వాసింపబడినది. సర్వభూత నివాసుడవైన వాసుదేవా! నీకు నమస్కారము. శ్రీ వాసుదేవ నమోస్తుత ఓం నమ ఇతి.",
+    englishMeaning: "Vyasa said: By the pervasion of Vasudeva, the three worlds are indwelt. You are the abode of all beings, O Vasudeva, salutations to You. Sri Vasudeva-namostuta Om nama iti."
+  },
+  {
+    id: 26,
+    telugu: "పార్వత్యువాచ\nకేనోపాయేన లఘునా విష్ణోర్నామసహస్రకమ్ ।\nపఠ్యతే పండితైర్నిత్యం శ్రోతుమిచ్ఛామ్యహం ప్రభో ॥ 26 ॥",
+    transliteration: "Parvati Uvacha\nKenopayena laghuna vishnor-nama sahasrakam |\npathyate panditair-nityam shrotum-ichchhamyaham prabho || 26 ||",
+    teluguMeaning: "పార్వత్యువాచ - ప్రభో! విష్ణు నామ సహస్రము పండితులచే నిత్యము లఘువుగా ఏ ఉపాయముచే పఠించబడుచున్నదో, వినుటకు ఇష్టపడుచున్నాను.",
+    englishMeaning: "Parvati said: O Lord, by what brief method is the thousand names of Vishnu chanted daily by the learned? I wish to hear."
+  },
+  {
+    id: 27,
+    telugu: "ఈశ్వర ఉవాచ\nశ్రీరామ రామ రామేతి రమే రామే మనోరమే ।\nసహస్రనామ తత్తుల్యం రామనామ వరాననే ॥ 27 ॥",
+    transliteration: "Ishvara Uvacha\nSri Rama Rama Rameti rame rame manorame |\nsahasra-nama tat-tulyam Rama-nama varanane || 27 ||",
+    teluguMeaning: "ఈశ్వర ఉవాచ - వరాననే (పార్వతీ)! రమే రమే మనోరమే - శ్రీ రామ రామ రామేతి అను రామనామము సహస్రనామమునకు తత్తుల్యము (సమానము). శ్రీ రామ నామ వరానన ఓం నమ ఇతి.",
+    englishMeaning: "Ishvara said: O beautiful-faced one, the name of Rama - 'Sri Rama Rama Rama' - is equal to the thousand names. Sri Rama-nama varanane Om nama iti."
+  },
+  {
+    id: 28,
+    telugu: "బ్రహ్మోవాచ\nనమోఽస్త్వనంతాయ సహస్రమూర్తయే సహస్రపాదాక్షిశిరోరుబాహవే ।\nసహస్రనామ్నే పురుషాయ శాశ్వతే సహస్రకోటీ యుగధారిణే నమః ॥ 28 ॥",
+    transliteration: "Brahma Uvacha\nNamo'stvanantaya sahasra-murtaye sahasra-padakshi-shirorubahave |\nsahasra-namne purushaya shashvate sahasra-koti yuga-dharine namah || 28 ||",
+    teluguMeaning: "బ్రహ్మోవాచ - అనంతాయ, సహస్రమూర్తయే, సహస్రపాదాక్షి శిరోరుబాహవే, సహస్రనామ్నే పురుషాయ శాశ్వతే, సహస్రకోటీ యుగధారిణే నమః. శ్రీ సహస్రకోటీ యుగధారిణే నమ ఓం నమ ఇతి.",
+    englishMeaning: "Brahma said: Salutations to the infinite, of thousand forms, with thousand feet, eyes, heads, thighs, and arms. Salutations to the eternal Purusha of thousand names, who bears thousands of crores of yugas. Sri Sahasra-koti yuga-dharine nama Om nama iti."
+  },
+  {
+    id: 29,
+    telugu: "సంజయ ఉవాచ\nయత్ర యోగేశ్వరః కృష్ణో యత్ర పార్థో ధనుర్ధరః ।\nతత్ర శ్రీర్విజయో భూతిర్ధ్రువా నీతిర్మతిర్మమ ॥ 29 ॥",
+    transliteration: "Sanjaya Uvacha\nYatra yogeshvarah krishno yatra partho dhanurdharah |\ntatra shrir-vijayo bhutir-dhruva nitir-matir-mama || 29 ||",
+    teluguMeaning: "సంజయ ఉవాచ - ఎచట యోగేశ్వరుడైన కృష్ణుడున్నాడో, ఎచట పార్థుడు ధనుర్ధరుడున్నాడో, అచట శ్రీయు, విజయమును, భూతియు, ధృవమైన నీతియు, కల్యాణ మతియు ఉన్నవి - ఇది నా మతము.",
+    englishMeaning: "Sanjaya said: Where there is Krishna, the Lord of Yoga, and where there is Partha (Arjuna) with the bow, there are prosperity, victory, expansion, and unfailing righteousness - this is my conviction."
+  },
+  {
+    id: 30,
+    telugu: "శ్రీ భగవాన్ ఉవాచ\nఅనన్యాశ్చింతయంతో మాం యే జనాః పర్యుపాసతే ।\nతేషాం నిత్యాభియుక్తానాం యోగక్షేమం వహామ్యహం। ॥ 30 ॥",
+    transliteration: "Sri Bhagavan Uvacha\nAnanyash-chintayanto mam ye janah paryupasate |\ntesham nitya-abhiyuktanam yoga-kshemam vahamyaham || 30 ||",
+    teluguMeaning: "శ్రీ భగవానువాచ - అనన్యములై మన్ను చింతించుచు ఎవరు పర్యుపాసతే (భజించుదురో), వారి నిత్యాభియుక్తులయొక్క యోగక్షేమమును నేను వహించెదను.",
+    englishMeaning: "The Lord said: Those who, thinking of nothing else, worship Me with undivided devotion, for those ever-united devotees, I carry their yoga (what they have) and kshema (what they need)."
+  },
+  {
+    id: 31,
+    telugu: "పరిత్రాణాయ సాధూనాం వినాశాయ చ దుష్కృతాం।\nధర్మసంస్థాపనార్థాయ సంభవామి యుగే యుగే ॥ 31 ॥",
+    transliteration: "Paritranaya sadhunam vinashaya cha dushkritam |\ndharma-samsthapanarthaya sambhavami yuge yuge || 31 ||",
+    teluguMeaning: "సాధువులను పరిత్రాణము చేయుటకును, దుష్కృతులను నాశనము చేయుటకును, ధర్మమును సంస్థాపించుటకును యుగము యుగమున నేను అవతరించుచున్నాను.",
+    englishMeaning: "For the protection of the good, for the destruction of the wicked, and for the establishment of dharma, I take birth age after age."
+  },
+  {
+    id: 32,
+    telugu: "ఆర్తాః విషణ్ణాః శిథిలాశ్చ భీతాః ఘోరేషు చ వ్యాధిషు వర్తమానాః ।\nసంకీర్త్య నారాయణశబ్దమాత్రం విముక్తదుఃఖాః సుఖినో భవంతి ॥ 32 ॥",
+    transliteration: "Artah vishannah shidhilash-cha bhitah ghosheshu cha vyadhishu vartamanah |\nsamkirtya narayana-shabda-matram vimukta-duhkhah sukhino bhavanti || 32 ||",
+    teluguMeaning: "ఆర్తులు, విషణ్ణులు, శిథిలులు, భీతులు, ఘోర వ్యాధులలో వర్తించుచున్నవారు - నారాయణ శబ్దమాత్రమును సంకీర్తనము చేయగానే దుఃఖమునుండి విముక్తులై సుఖులగుదురు.",
+    englishMeaning: "The distressed, the despairing, the despondent, the fearful, those afflicted with terrible diseases - by merely chanting the name 'Narayana', they become free from sorrow and attain happiness."
+  },
+  {
+    id: 33,
+    telugu: "కాయేన వాచా మనసేంద్రియైర్వా బుద్ధ్యాత్మనా వా ప్రకృతేః స్వభావాత్ ।\nకరోమి యద్యత్సకలం పరస్మై నారాయణాయేతి సమర్పయామి ॥ 33 ॥\nయదక్షర పదభ్రష్టం మాత్రాహీనం తు యద్భవేత్\nతత్సర్వం క్షమ్యతాం దేవ నారాయణ నమోఽస్తు తే ।\nవిసర్గ బిందు మాత్రాణి పదపాదాక్షరాణి చ\nన్యూనాని చాతిరిక్తాని క్షమస్వ పురుషోత్తమః ॥\n\nఇతి శ్రీ మహాభారతే శతసాహస్రికాయాం సంహితాయాం వైయాసిక్యామనుశాసన పర్వాంతర్గత ఆనుశాసనిక పర్వణి, మోక్షధర్మే భీష్మ యుధిష్ఠిర సంవాదే శ్రీ విష్ణోర్దివ్య సహస్రనామ స్తోత్రం నామైకోన పంచ శతాధిక శతతమోధ్యాయః ॥\nశ్రీ విష్ణు సహస్రనామ స్తోత్రం సమాప్తమ్ ॥\nఓం తత్సత్ సర్వం శ్రీ కృష్ణార్పణమస్తు ॥",
+    transliteration: "Kayena vacha manasendriyairva buddhyatmana va prakriteh svabhavat |\nkaromi yadyat-sakalam parasmai narayanayeti samarpayami || 33 ||\nYadakshara padabrashtam matrahinam tu yadbhavet |\ntatsarvam kshamyatam deva narayana namo'stu te |\nVisarga bindu matrani pada-padaksharani cha |\nanyunani chatiriktani kshamasva purushottamah ||\n\nIti sri mahabharate shata-sahasriyam samhitayam vaiyasikyam-anushasana parvantargata anushasanika parvani, moksha-dharme bhishma-yudhishthira samvade sri vishnor-divya sahasranama stotram namaikona pancha-shatadhika shata-tamo-dhyayah ||\nSri Vishnu Sahasranama Stotram Samaptam ||\nOm Tat Sat Sarvam Sri Krishnarpanamastu ||",
+    teluguMeaning: "కాయేన వాచా మనసా ఇంద్రియములచేతను, బుద్ధ్యా ఆత్మనా, ప్రకృతేః స్వభావతః వా నేను యద్యత్ సకలము కరోమి (చేయుచున్నానో) అదంతయు పరమాత్మయైన నారాయణాయ ఇతి సమర్పయామి. అక్షర పద భ్రష్టము, మాత్రాహీనము యద్భవేత్ (అయినను), విసర్గ బిందు మాత్రలు, పద పాద అక్షరములు న్యూనములును, అతిరిక్తములును అయినను దేవా! నారాయణ! పురుషోత్తమ! క్షమస్వ. నమోస్తు తే.\n\nఇతి శ్రీ మహాభారతే శతసాహస్రికాయాం సంహితాయాం వైయాసిక్యాం అనుశాసన పర్వాంతర్గత ఆనుశాసనిక పర్వణి మోక్షధర్మే భీష్మ యుధిష్ఠిర సంవాదే శ్రీ విష్ణోర్దివ్య సహస్రనామ స్తోత్రం నామైకోన పంచ శతాధిక శతతమోధ్యాయః ॥\nశ్రీ విష్ణు సహస్రనామ స్తోత్రం సమాప్తమ్ ॥\nఓం తత్సత్ సర్వం శ్రీ కృష్ణార్పణమస్తు ॥",
+    englishMeaning: "Whatever I do with my body, speech, mind, senses, intellect, or by the natural tendencies of nature - all that I offer to the Supreme Lord Narayana. May the Lord forgive any errors in letters, words, syllables, or meters that are deficient or excessive. O Purushottama, please pardon all shortcomings.\n\nThus ends the Sri Vishnu Sahasranama Stotram in the Mahabharata, in the Anushasana Parva, in the Moksha Dharma, in the dialogue between Bhishma and Yudhishthira, the 135th chapter. Om Tat Sat - May all be offered to Sri Krishna."
   }
 ];
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import { dhyanaShlokas, mainStotram, phalashruti, getAllNames } from "@/data/vishnu-stotram";
+import { dhyanaShlokas, mainStotram, phalashruti, getAllNames, invocations, poorvaPeethika, nyasaMantras, dhyanam, panchaPuja } from "@/data/vishnu-stotram";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -288,50 +288,128 @@ export default function Home() {
             <TabsContent value="dhyana" className="space-y-6">
               <div className="text-center mb-8">
                 <h3 className="font-display text-2xl sm:text-3xl font-bold text-maroon mb-2">
-                  Dhyana Shlokas
+                  Purva Peethika - Introduction & Dhyana
                 </h3>
                 <p className="font-telugu text-lg text-orange-700">
-                  ధ్యాన శ్లోకములు - పూర్వ పీఠిక
+                  పూర్వ పీఠిక - ధ్యాన శ్లోకములు
                 </p>
                 <div className="temple-divider w-24 mx-auto mt-3" />
                 <p className="font-body text-sm text-gray-600 max-w-2xl mx-auto mt-4">
-                  These meditation verses are chanted before reciting the Sahasranama,
-                  invoking Lord Vishnu and removing all obstacles.
+                  Complete introductory mantras chanted before reciting the Sahasranama:
+                  Invocations, Poorva Peethika, Nyasa (Karanyasa & Anganyasa), Dhyanam, and Pancha Puja.
                 </p>
               </div>
-              {dhyanaShlokas.map((shloka) => (
-                <ShlokaCard
-                  key={shloka.id}
-                  shloka={shloka}
-                  fontSize={fontSize}
-                  isBookmarked={false}
-                  onBookmark={() => {}}
-                  prefix="dhyana"
-                />
-              ))}
 
-              {/* Phalashruti */}
-              <div className="mt-12">
-                <div className="text-center mb-8">
-                  <h3 className="font-display text-2xl sm:text-3xl font-bold text-maroon mb-2">
-                    Phalashruti - Benefits
-                  </h3>
-                  <p className="font-telugu text-lg text-orange-700">
-                    ఫలశృతి - పఠన ఫలములు
-                  </p>
-                  <div className="temple-divider w-24 mx-auto mt-3" />
-                  <p className="font-body text-sm text-gray-600 max-w-2xl mx-auto mt-4">
-                    The fruits of chanting the Vishnu Sahasranama as described in the scripture.
-                  </p>
-                </div>
-                {phalashruti.map((shloka) => (
+              {/* Section 1: Invocations */}
+              <div className="mt-8">
+                <SectionHeader
+                  title="Invocations - Suklambaradharam"
+                  titleTelugu="ఆరంభ శ్లోకములు"
+                  description="Opening prayers to Lord Vishnu and Vishvaksena for removing all obstacles."
+                />
+                {invocations.map((shloka) => (
                   <ShlokaCard
-                    key={shloka.id}
+                    key={`inv-${shloka.id}`}
                     shloka={shloka}
                     fontSize={fontSize}
                     isBookmarked={false}
                     onBookmark={() => {}}
-                    prefix="phala"
+                    prefix="inv"
+                  />
+                ))}
+              </div>
+
+              {/* Section 2: Poorva Peethika */}
+              <div className="mt-12">
+                <SectionHeader
+                  title="Poorva Peethika - Introduction"
+                  titleTelugu="పూర్వ పీఠిక"
+                  description="The introductory dialogue between Yudhishthira and Bhishma from the Mahabharata, establishing the context and glory of the thousand names."
+                />
+                {poorvaPeethika.map((shloka) => (
+                  <ShlokaCard
+                    key={`pp-${shloka.id}`}
+                    shloka={shloka}
+                    fontSize={fontSize}
+                    isBookmarked={false}
+                    onBookmark={() => {}}
+                    prefix="pp"
+                  />
+                ))}
+              </div>
+
+              {/* Section 3: Nyasa */}
+              <div className="mt-12">
+                <SectionHeader
+                  title="Poorva Nyasa - Karanyasa & Anganyasa"
+                  titleTelugu="పూర్వ న్యాసము - కరన్యాస, అంగన్యాస"
+                  description="Purification mantras for hands (Karanyasa) and body (Anganyasa) with the Viniyoga (application) of the Sahasranama mantra."
+                />
+                {nyasaMantras.map((shloka) => (
+                  <ShlokaCard
+                    key={`nya-${shloka.id}`}
+                    shloka={shloka}
+                    fontSize={fontSize}
+                    isBookmarked={false}
+                    onBookmark={() => {}}
+                    prefix="nya"
+                  />
+                ))}
+              </div>
+
+              {/* Section 4: Dhyanam */}
+              <div className="mt-12">
+                <SectionHeader
+                  title="Dhyanam - Meditation Verses"
+                  titleTelugu="ధ్యానము"
+                  description="Meditation verses describing the beautiful form of Lord Vishnu, to be visualized before chanting the names."
+                />
+                {dhyanam.map((shloka) => (
+                  <ShlokaCard
+                    key={`dhy-${shloka.id}`}
+                    shloka={shloka}
+                    fontSize={fontSize}
+                    isBookmarked={false}
+                    onBookmark={() => {}}
+                    prefix="dhy"
+                  />
+                ))}
+              </div>
+
+              {/* Section 5: Pancha Puja */}
+              <div className="mt-12">
+                <SectionHeader
+                  title="Pancha Puja - Five Offerings"
+                  titleTelugu="పంచపూజ"
+                  description="The five-fold worship offerings (sandalwood, flowers, incense, lamp, and food) offered to the Lord before chanting."
+                />
+                {panchaPuja.map((shloka) => (
+                  <ShlokaCard
+                    key={`pan-${shloka.id}`}
+                    shloka={shloka}
+                    fontSize={fontSize}
+                    isBookmarked={false}
+                    onBookmark={() => {}}
+                    prefix="pan"
+                  />
+                ))}
+              </div>
+
+              {/* Phalashruti */}
+              <div className="mt-12">
+                <SectionHeader
+                  title="Phalashruti - Benefits of Chanting"
+                  titleTelugu="ఫలశృతి - పఠన ఫలములు"
+                  description="The 33 verses describing the fruits of chanting the Vishnu Sahasranama, including the famous Kayenavacha surrender verse, and the concluding colophon from the Mahabharata."
+                />
+                {phalashruti.map((shloka) => (
+                  <ShlokaCard
+                    key={`pha-${shloka.id}`}
+                    shloka={shloka}
+                    fontSize={fontSize}
+                    isBookmarked={false}
+                    onBookmark={() => {}}
+                    prefix="pha"
                   />
                 ))}
               </div>
@@ -410,6 +488,32 @@ export default function Home() {
           <ChevronUp className="w-6 h-6" />
         </button>
       )}
+    </div>
+  );
+}
+
+// Section Header Component
+function SectionHeader({
+  title,
+  titleTelugu,
+  description,
+}: {
+  title: string;
+  titleTelugu: string;
+  description: string;
+}) {
+  return (
+    <div className="text-center mb-6">
+      <h4 className="font-display text-xl sm:text-2xl font-bold text-maroon mb-1">
+        {title}
+      </h4>
+      <p className="font-telugu text-base text-orange-700 mb-2">
+        {titleTelugu}
+      </p>
+      <div className="temple-divider w-20 mx-auto mt-2 mb-3" />
+      <p className="font-body text-sm text-gray-600 max-w-2xl mx-auto">
+        {description}
+      </p>
     </div>
   );
 }
